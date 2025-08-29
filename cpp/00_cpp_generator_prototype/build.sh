@@ -1,0 +1,17 @@
+g++ -std=c++20 \
+    -o 00_cpp_generator_prototype 00_cpp_generator_prototype.cpp \
+    -I/home/rubis/workspace/tvm-segment-21/include \
+    -I/home/rubis/workspace/tvm-segment-21/ffi/include \
+    -I/home/rubis/workspace/tvm-segment-21/3rdparty/dmlc-core/include \
+    -I/home/rubis/workspace/tvm-segment-21/ffi/3rdparty/dlpack/include \
+    -I/home/rubis/workspace/mlc-llm-segment/cpp \
+    -I/home/rubis/workspace/mlc-llm-segment/3rdparty/tokenizers-cpp/include \
+    -I/home/rubis/workspace/mlc-llm-segment/3rdparty/xgrammar/3rdparty/picojson \
+    -I/home/rubis/workspace/mlc-llm-segment/3rdparty/xgrammar/include \
+    -L/home/rubis/workspace/tvm-segment-21/build \
+    -L/home/rubis/workspace/mlc-ll-segment/build \
+    -lpthread -lcurl -ljpeg -ldeflate \
+    -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_imgcodecs \
+    -ltvm_runtime \
+    -lmlc_llm \
+    -lmlc_llm_module
