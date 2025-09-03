@@ -1,5 +1,7 @@
 cpp/00_cpp_generator_prototype/00_cpp_generator_prototype
 cpp/01_cpp_engine_prototype/01_cpp_engine_prototype
+cpp/03_segment_runner/03_segment_runner
 *.txt
 log
 temp
+**/.vscode

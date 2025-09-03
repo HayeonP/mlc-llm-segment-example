@@ -116,10 +116,10 @@ using LogProbs = struct LogProbs;
 using CallbackStreamOutput = struct CallbackStreamOutput;
 using SingleRequestStreamOutput = struct SingleRequestStreamOutput;
 
-class CppEngine {
+class CppInterface {
 public:
-  CppEngine() { std::signal(SIGINT, signal_handler); }
-  ~CppEngine(){
+  CppInterface() { std::signal(SIGINT, signal_handler); }
+  ~CppInterface(){
     tvm::ffi::Function exit_background_loop_func = _engine_module->GetFunction("exit_background_loop");
     exit_background_loop_func();
   
@@ -162,7 +162,7 @@ private:
 };
 
 
-ChatCompletionResponse CppEngine::create(std::optional<std::string>& request_id, ChatCompletionRequest request){
+ChatCompletionResponse CppInterface::create(std::optional<std::string>& request_id, ChatCompletionRequest request){
   Optional<String> request_id_;
   if(request_id.has_value()){
     request_id_ = String(request_id.value());
@@ -183,7 +183,7 @@ ChatCompletionResponse CppEngine::create(std::optional<std::string>& request_id,
 
 }
 
-std::variant<Generator<ChatCompletionStreamResponse>, ChatCompletionResponse> CppEngine::_chat_completion(Optional<String>& request_id, ChatCompletionRequest request){
+std::variant<Generator<ChatCompletionStreamResponse>, ChatCompletionResponse> CppInterface::_chat_completion(Optional<String>& request_id, ChatCompletionRequest request){
   Generator<ChatCompletionStreamResponse> cmpl_generator = _handle_chat_completion(request_id, request);
   if(request.stream){
     // # Stream response
@@ -223,7 +223,7 @@ std::variant<Generator<ChatCompletionStreamResponse>, ChatCompletionResponse> Cp
 }
 
 // TODO: Doesn't support logprob, funciton call, tool calls for now
-ChatCompletionResponse CppEngine::wrap_chat_completion_response(std::string& request_id, std::string& model, std::vector<std::string>& output_texts, std::vector<std::string>& finish_reasons){
+ChatCompletionResponse CppInterface::wrap_chat_completion_response(std::string& request_id, std::string& model, std::vector<std::string>& output_texts, std::vector<std::string>& finish_reasons){
   ChatCompletionResponse response;
 
   response.id = request_id;
@@ -250,7 +250,7 @@ ChatCompletionResponse CppEngine::wrap_chat_completion_response(std::string& req
 }
 
 
-Generator<ChatCompletionStreamResponse> CppEngine::_handle_chat_completion(Optional<String>& request_id, ChatCompletionRequest request){
+Generator<ChatCompletionStreamResponse> CppInterface::_handle_chat_completion(Optional<String>& request_id, ChatCompletionRequest request){
   // ***** engine_base.process_chat_completion_request ***** START
   if(!_trace_recorder.has_value()){
     std::cout<< "[ERROR] Trace recorder is not initialized" << std::endl;
@@ -366,7 +366,7 @@ Generator<ChatCompletionStreamResponse> CppEngine::_handle_chat_completion(Optio
 
   // TODO: use_function_calling is always false (cpp struct Conversation doesn't have it)
   
-  Array<Optional<String>> finish_reasons(generation_config->n, Optional<String>()); // TODO: push_bakc으로 해야하나?  
+  Array<Optional<String>> finish_reasons(generation_config->n, Optional<String>()); // TODO: push_back으로 해야하나?  
     
   _trace_recorder.value()->AddEvent(request_id.value(), std::string("invoke generate"));
   auto generate_output = _generate(prompts, generation_config, request_id);
@@ -377,7 +377,6 @@ Generator<ChatCompletionStreamResponse> CppEngine::_handle_chat_completion(Optio
     bool use_function_calling = false; // TODO: use_function_calling is always "false" for now.
     std::optional<ChatCompletionStreamResponse> response = process_chat_completion_stream_output(delta_outputs, request, request_id, false, finish_reasons);                                    
 
-    // TODO: ### START HERE
     if(response.has_value()){
       auto v = response.value();
 
@@ -390,7 +389,7 @@ Generator<ChatCompletionStreamResponse> CppEngine::_handle_chat_completion(Optio
   _trace_recorder.value()->AddEvent(request_id.value(), std::string("finish"));
 }
 
-std::optional<ChatCompletionStreamResponse> CppEngine::process_chat_completion_stream_output(std::vector<CallbackStreamOutput>& delta_outputs, mlc::llm::json_ffi::ChatCompletionRequest& request, Optional<String> request_id, bool use_function_calling, Array<Optional<String>> finish_reasons){
+std::optional<ChatCompletionStreamResponse> CppInterface::process_chat_completion_stream_output(std::vector<CallbackStreamOutput>& delta_outputs, mlc::llm::json_ffi::ChatCompletionRequest& request, Optional<String> request_id, bool use_function_calling, Array<Optional<String>> finish_reasons){
   std::optional<ChatCompletionStreamResponse> response;
 
   // # we always stream back the final chunk with usage
@@ -481,7 +480,7 @@ std::optional<ChatCompletionStreamResponse> CppEngine::process_chat_completion_s
 }
 
 // Return Iterator
-Generator<std::vector<CallbackStreamOutput>> CppEngine::_generate(std::vector<TokenIds> prompts, mlc::llm::serve::GenerationConfig generation_config, Optional<String>& request_id){
+Generator<std::vector<CallbackStreamOutput>> CppInterface::_generate(std::vector<TokenIds> prompts, mlc::llm::serve::GenerationConfig generation_config, Optional<String>& request_id){
   // TODO: We only cares List[List[int]] prompts for now 
   // **** convert_prompts_to_data ***** START 
   
@@ -558,7 +557,7 @@ Generator<std::vector<CallbackStreamOutput>> CppEngine::_generate(std::vector<To
   }
 }
 
-void CppEngine::_request_stream_callback_impl(std::vector<mlc::llm::serve::RequestStreamOutput> delta_outputs, std::vector<std::vector<CallbackStreamOutput>>& output_request_outputs, Optional<String>& output_request_final_usage_json_str){  
+void CppInterface::_request_stream_callback_impl(std::vector<mlc::llm::serve::RequestStreamOutput> delta_outputs, std::vector<std::vector<CallbackStreamOutput>>& output_request_outputs, Optional<String>& output_request_final_usage_json_str){  
   std::vector<std::vector<CallbackStreamOutput>>& batch_outputs = output_request_outputs;
 
   for(auto v : batch_outputs) v.clear();
@@ -670,7 +669,7 @@ void CppEngine::_request_stream_callback_impl(std::vector<mlc::llm::serve::Reque
   output_request_final_usage_json_str = std::nullopt;
 }
 
-void CppEngine::_check_engine_config(std::string model, std::string model_lib, EngineMode mode, mlc::llm::serve::EngineConfig engine_config){
+void CppInterface::_check_engine_config(std::string model, std::string model_lib, EngineMode mode, mlc::llm::serve::EngineConfig engine_config){
   if(engine_config->model != "" && engine_config->model != model){
     std::cout << "[ERROR] The argument \"model\" of engine constructor is \""<< model <<"\", while the \"model\" field in argument \"engine_config\" is \"" << engine_config->model <<"\". Please set the \"engine_config->model\" to \"\" or set it to the same as the argument \"model\"." << std::endl;
     exit(0);
@@ -690,7 +689,7 @@ void CppEngine::_check_engine_config(std::string model, std::string model_lib, E
 }
 
 // Not support additional models
-std::vector<ModelInfo> CppEngine::_parse_members(std::string model, std::string model_lib){
+std::vector<ModelInfo> CppInterface::_parse_members(std::string model, std::string model_lib){
   std::vector<ModelInfo> models;
   ModelInfo model_info;
   model_info.model = model;
@@ -700,7 +699,7 @@ std::vector<ModelInfo> CppEngine::_parse_members(std::string model, std::string 
   return models;
 }
 
-void CppEngine::_convert_model_info(ModelInfo model, Conversation& conversation, std::vector<std::string>& config_file_paths, std::string& output_model_path, std::string& output_model_lib){
+void CppInterface::_convert_model_info(ModelInfo model, Conversation& conversation, std::vector<std::string>& config_file_paths, std::string& output_model_path, std::string& output_model_lib){
   std::string model_path = model.model;
   std::string mlc_config_path = model_path + "/mlc-chat-config.json";
   config_file_paths.emplace_back(mlc_config_path);
@@ -720,7 +719,7 @@ void CppEngine::_convert_model_info(ModelInfo model, Conversation& conversation,
   return;
 }
 
-std::vector<ModelInfo> CppEngine::_parse_models(std::string model, std::string model_lib){ // Doesn't support addtional models
+std::vector<ModelInfo> CppInterface::_parse_models(std::string model, std::string model_lib){ // Doesn't support addtional models
   std::vector<ModelInfo> models;
   ModelInfo model_info;
   model_info.model = model;
@@ -729,7 +728,7 @@ std::vector<ModelInfo> CppEngine::_parse_models(std::string model, std::string m
   return models;
 }
 
-void CppEngine::_process_model_args(std::vector<ModelInfo>& models, tvm::Device& device, mlc::llm::serve::EngineConfig& engine_config, std::vector<ModelArg>& output_model_args, std::vector<std::string>& output_config_file_paths, Conversation& output_conv_template){
+void CppInterface::_process_model_args(std::vector<ModelInfo>& models, tvm::Device& device, mlc::llm::serve::EngineConfig& engine_config, std::vector<ModelArg>& output_model_args, std::vector<std::string>& output_config_file_paths, Conversation& output_conv_template){
   
   Conversation conversation;
   std::vector<std::string> config_file_paths;
@@ -756,7 +755,7 @@ void CppEngine::_process_model_args(std::vector<ModelInfo>& models, tvm::Device&
 
 
 // TODO: Add engine config to args
-void CppEngine::init(std::string model, tvm::Device& device, std::string model_lib, std::string mode){
+void CppInterface::init(std::string model, tvm::Device& device, std::string model_lib, std::string mode){
   // - Check the fields fields of `engine_config`.
   mlc::llm::serve::EngineConfig engine_config(make_object<mlc::llm::serve::EngineConfigNode>());
   // _check_engine_config(model, model_lib, engine_config); // Not necessary
@@ -854,11 +853,11 @@ void CppEngine::init(std::string model, tvm::Device& device, std::string model_l
 }
 
 
-void CppEngine::_sync_request_stream_callback(tvm::ffi::Array<mlc::llm::serve::RequestStreamOutput> delta_outputs){
+void CppInterface::_sync_request_stream_callback(tvm::ffi::Array<mlc::llm::serve::RequestStreamOutput> delta_outputs){
   _sync_output_queue.put_nowait(delta_outputs);
 }
 
-ChatCompletionRequest CppEngine::create_chat_completion_request(std::string& model, std::string prompt, int max_tokens, bool stream){
+ChatCompletionRequest CppInterface::create_chat_completion_request(std::string& model, std::string prompt, int max_tokens, bool stream){
   ChatCompletionRequest request;
   request.model = model;
 
@@ -871,7 +870,7 @@ ChatCompletionRequest CppEngine::create_chat_completion_request(std::string& mod
   return request;
 }
 
-std::string CppEngine::response_to_str(ChatCompletionResponse& response){
+std::string CppInterface::response_to_str(ChatCompletionResponse& response){
   std::string response_str;
   for(auto& choice : response.choices){
     response_str += choice.message.content.Text();
@@ -886,8 +885,8 @@ int main(int argc, char* argv[]){
   tvm::Device dev{kDLCUDA, 0};
   std::string mode = "local";
 
-  CppEngine engine;
-  engine.init(model_dir, dev, model_lib_path, mode);
+  CppInterface cpp_interface;
+  cpp_interface.init(model_dir, dev, model_lib_path, mode);
 
   std::optional<std::string> request_id = std::nullopt; // no request_id
 
@@ -896,11 +895,11 @@ int main(int argc, char* argv[]){
   std::string prompt("Can you introduce yourself?");
   int max_tokens = 128;
   bool stream = false;
-  ChatCompletionRequest request = engine.create_chat_completion_request(model_dir, prompt, max_tokens, stream);
+  ChatCompletionRequest request = cpp_interface.create_chat_completion_request(model_dir, prompt, max_tokens, stream);
 
-  ChatCompletionResponse response = engine.create(request_id, request);
+  ChatCompletionResponse response = cpp_interface.create(request_id, request);
 
-  std::cout<<"MLC-LLM Output: "<<engine.response_to_str(response)<<std::endl;
+  std::cout<<"MLC-LLM Output: "<<cpp_interface.response_to_str(response)<<std::endl;
 
   return 0;
 }
