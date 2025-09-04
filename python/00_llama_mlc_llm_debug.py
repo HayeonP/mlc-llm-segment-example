@@ -25,7 +25,7 @@ for _ in range(1):
     resp = engine.chat.completions.create(
         model=MODEL_DIR,
         messages=[{"role":"user", "content":prompt}],
-        max_tokens=10,
+        max_tokens=128,
         stream=False
     )
 
