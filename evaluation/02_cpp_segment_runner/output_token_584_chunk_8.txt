@@ -1,0 +1,277 @@
+instance 0
+0
+Finish request
+[debug] input token length: 304 / prefilled token length: 8
+---- prefill: 65ms
+[debug] input token length: 304 / prefilled token length: 16
+---- prefill: 23ms
+[debug] input token length: 304 / prefilled token length: 24
+---- prefill: 30ms
+[debug] input token length: 304 / prefilled token length: 32
+---- prefill: 34ms
+[debug] input token length: 304 / prefilled token length: 40
+---- prefill: 40ms
+[debug] input token length: 304 / prefilled token length: 48
+---- prefill: 51ms
+[debug] input token length: 304 / prefilled token length: 56
+---- prefill: 77ms
+[debug] input token length: 304 / prefilled token length: 64
+---- prefill: 75ms
+[debug] input token length: 304 / prefilled token length: 72
+---- prefill: 48ms
+[debug] input token length: 304 / prefilled token length: 80
+---- prefill: 37ms
+[debug] input token length: 304 / prefilled token length: 88
+---- prefill: 34ms
+[debug] input token length: 304 / prefilled token length: 96
+---- prefill: 33ms
+[debug] input token length: 304 / prefilled token length: 104
+---- prefill: 33ms
+[debug] input token length: 304 / prefilled token length: 112
+---- prefill: 34ms
+[debug] input token length: 304 / prefilled token length: 120
+---- prefill: 34ms
+[debug] input token length: 304 / prefilled token length: 128
+---- prefill: 34ms
+[debug] input token length: 304 / prefilled token length: 136
+---- prefill: 34ms
+[debug] input token length: 304 / prefilled token length: 144
+---- prefill: 35ms
+[debug] input token length: 304 / prefilled token length: 152
+---- prefill: 35ms
+[debug] input token length: 304 / prefilled token length: 160
+---- prefill: 35ms
+[debug] input token length: 304 / prefilled token length: 168
+---- prefill: 36ms
+[debug] input token length: 304 / prefilled token length: 176
+---- prefill: 36ms
+[debug] input token length: 304 / prefilled token length: 184
+---- prefill: 37ms
+[debug] input token length: 304 / prefilled token length: 192
+---- prefill: 36ms
+[debug] input token length: 304 / prefilled token length: 200
+---- prefill: 37ms
+[debug] input token length: 304 / prefilled token length: 208
+---- prefill: 37ms
+[debug] input token length: 304 / prefilled token length: 216
+---- prefill: 38ms
+[debug] input token length: 304 / prefilled token length: 224
+---- prefill: 37ms
+[debug] input token length: 304 / prefilled token length: 232
+---- prefill: 37ms
+[debug] input token length: 304 / prefilled token length: 240
+---- prefill: 38ms
+[debug] input token length: 304 / prefilled token length: 248
+---- prefill: 38ms
+[debug] input token length: 304 / prefilled token length: 256
+---- prefill: 38ms
+[debug] input token length: 304 / prefilled token length: 264
+---- prefill: 38ms
+[debug] input token length: 304 / prefilled token length: 272
+---- prefill: 39ms
+[debug] input token length: 304 / prefilled token length: 280
+---- prefill: 39ms
+[debug] input token length: 304 / prefilled token length: 288
+---- prefill: 39ms
+[debug] input token length: 304 / prefilled token length: 296
+---- prefill: 39ms
+[debug] input token length: 304 / prefilled token length: 304
+---- prefill: 68ms
+===============================
+I think I see what's going on here!
+
+You're asking me to repeat the same question multiple times, but the actual question is "What is Artificial Intelligence?"
+
+So, the correct answer is:
+
+Artificial Intelligence (AI) is a branch of computer science that aims to create intelligent machines that can think, learn, and behave like humans.
+instance 1
+0
+Finish request
+[debug] input token length: 304 / prefilled token length: 8
+---- prefill: 31ms
+[debug] input token length: 304 / prefilled token length: 16
+---- prefill: 32ms
+[debug] input token length: 304 / prefilled token length: 24
+---- prefill: 31ms
+[debug] input token length: 304 / prefilled token length: 32
+---- prefill: 32ms
+[debug] input token length: 304 / prefilled token length: 40
+---- prefill: 32ms
+[debug] input token length: 304 / prefilled token length: 48
+---- prefill: 32ms
+[debug] input token length: 304 / prefilled token length: 56
+---- prefill: 32ms
+[debug] input token length: 304 / prefilled token length: 64
+---- prefill: 33ms
+[debug] input token length: 304 / prefilled token length: 72
+---- prefill: 33ms
+[debug] input token length: 304 / prefilled token length: 80
+---- prefill: 33ms
+[debug] input token length: 304 / prefilled token length: 88
+---- prefill: 34ms
+[debug] input token length: 304 / prefilled token length: 96
+---- prefill: 34ms
+[debug] input token length: 304 / prefilled token length: 104
+---- prefill: 34ms
+[debug] input token length: 304 / prefilled token length: 112
+---- prefill: 34ms
+[debug] input token length: 304 / prefilled token length: 120
+---- prefill: 34ms
+[debug] input token length: 304 / prefilled token length: 128
+---- prefill: 34ms
+[debug] input token length: 304 / prefilled token length: 136
+---- prefill: 34ms
+[debug] input token length: 304 / prefilled token length: 144
+---- prefill: 35ms
+[debug] input token length: 304 / prefilled token length: 152
+---- prefill: 35ms
+[debug] input token length: 304 / prefilled token length: 160
+---- prefill: 35ms
+[debug] input token length: 304 / prefilled token length: 168
+---- prefill: 35ms
+[debug] input token length: 304 / prefilled token length: 176
+---- prefill: 36ms
+[debug] input token length: 304 / prefilled token length: 184
+---- prefill: 36ms
+[debug] input token length: 304 / prefilled token length: 192
+---- prefill: 37ms
+[debug] input token length: 304 / prefilled token length: 200
+---- prefill: 37ms
+[debug] input token length: 304 / prefilled token length: 208
+---- prefill: 38ms
+[debug] input token length: 304 / prefilled token length: 216
+---- prefill: 37ms
+[debug] input token length: 304 / prefilled token length: 224
+---- prefill: 37ms
+[debug] input token length: 304 / prefilled token length: 232
+---- prefill: 38ms
+[debug] input token length: 304 / prefilled token length: 240
+---- prefill: 38ms
+[debug] input token length: 304 / prefilled token length: 248
+---- prefill: 38ms
+[debug] input token length: 304 / prefilled token length: 256
+---- prefill: 38ms
+[debug] input token length: 304 / prefilled token length: 264
+---- prefill: 38ms
+[debug] input token length: 304 / prefilled token length: 272
+---- prefill: 39ms
+[debug] input token length: 304 / prefilled token length: 280
+---- prefill: 40ms
+[debug] input token length: 304 / prefilled token length: 288
+---- prefill: 39ms
+[debug] input token length: 304 / prefilled token length: 296
+---- prefill: 40ms
+[debug] input token length: 304 / prefilled token length: 304
+---- prefill: 41ms
+===============================
+I think I see what's going on here!
+
+You're asking me to repeat the same question multiple times, but the actual question is "What is Artificial Intelligence?"
+
+So, the correct answer is:
+
+Artificial Intelligence (AI) is a branch of computer science that aims to create intelligent machines that can think, learn, and behave like humans.
+instance 2
+0
+Finish request
+[debug] input token length: 304 / prefilled token length: 8
+---- prefill: 31ms
+[debug] input token length: 304 / prefilled token length: 16
+---- prefill: 31ms
+[debug] input token length: 304 / prefilled token length: 24
+---- prefill: 31ms
+[debug] input token length: 304 / prefilled token length: 32
+---- prefill: 32ms
+[debug] input token length: 304 / prefilled token length: 40
+---- prefill: 32ms
+[debug] input token length: 304 / prefilled token length: 48
+---- prefill: 32ms
+[debug] input token length: 304 / prefilled token length: 56
+---- prefill: 32ms
+[debug] input token length: 304 / prefilled token length: 64
+---- prefill: 32ms
+[debug] input token length: 304 / prefilled token length: 72
+---- prefill: 33ms
+[debug] input token length: 304 / prefilled token length: 80
+---- prefill: 33ms
+[debug] input token length: 304 / prefilled token length: 88
+---- prefill: 33ms
+[debug] input token length: 304 / prefilled token length: 96
+---- prefill: 33ms
+[debug] input token length: 304 / prefilled token length: 104
+---- prefill: 33ms
+[debug] input token length: 304 / prefilled token length: 112
+---- prefill: 34ms
+[debug] input token length: 304 / prefilled token length: 120
+---- prefill: 34ms
+[debug] input token length: 304 / prefilled token length: 128
+---- prefill: 34ms
+[debug] input token length: 304 / prefilled token length: 136
+---- prefill: 34ms
+[debug] input token length: 304 / prefilled token length: 144
+---- prefill: 35ms
+[debug] input token length: 304 / prefilled token length: 152
+---- prefill: 35ms
+[debug] input token length: 304 / prefilled token length: 160
+---- prefill: 35ms
+[debug] input token length: 304 / prefilled token length: 168
+---- prefill: 35ms
+[debug] input token length: 304 / prefilled token length: 176
+---- prefill: 36ms
+[debug] input token length: 304 / prefilled token length: 184
+---- prefill: 36ms
+[debug] input token length: 304 / prefilled token length: 192
+---- prefill: 36ms
+[debug] input token length: 304 / prefilled token length: 200
+---- prefill: 36ms
+[debug] input token length: 304 / prefilled token length: 208
+---- prefill: 37ms
+[debug] input token length: 304 / prefilled token length: 216
+---- prefill: 37ms
+[debug] input token length: 304 / prefilled token length: 224
+---- prefill: 37ms
+[debug] input token length: 304 / prefilled token length: 232
+---- prefill: 37ms
+[debug] input token length: 304 / prefilled token length: 240
+---- prefill: 38ms
+[debug] input token length: 304 / prefilled token length: 248
+---- prefill: 38ms
+[debug] input token length: 304 / prefilled token length: 256
+---- prefill: 38ms
+[debug] input token length: 304 / prefilled token length: 264
+---- prefill: 38ms
+[debug] input token length: 304 / prefilled token length: 272
+---- prefill: 39ms
+[debug] input token length: 304 / prefilled token length: 280
+---- prefill: 39ms
+[debug] input token length: 304 / prefilled token length: 288
+---- prefill: 39ms
+[debug] input token length: 304 / prefilled token length: 296
+---- prefill: 39ms
+[debug] input token length: 304 / prefilled token length: 304
+---- prefill: 41ms
+===============================
+I think I see what's going on here!
+
+You're asking me to repeat the same question multiple times, but the actual question is "What is Artificial Intelligence?"
+
+So, the correct answer is:
+
+Artificial Intelligence (AI) is a branch of computer science that aims to create intelligent machines that can think, learn, and behave like humans.
+===========================
+# request time
+Average response time: 2.83544ms
+Worst response time: 3.16651ms
+===========================
+# prefill time
+Average response time: 1427.19ms
+Worst response time: 1549.64ms
+===========================
+# inference time
+Average response time: 851.347ms
+Worst response time: 895.693ms
+===========================
+# total time
+Average response time: 2281.39ms
+Worst response time: 2448.52ms

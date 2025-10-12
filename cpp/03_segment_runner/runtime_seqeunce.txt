@@ -1,0 +1,3619 @@
+[debug] init segment runner engine
+[engine debug] ***Reload engine***
+[engine debug] EngineReloadImpl
+[engine debug] AutoDecideEngineConfig START
+[engine debug] create_kv_cache_func_
+[engine debug] alloc_embedding_tensor_func_
+[engine debug] alloc_embedding_tensor_func_
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] ACTION - Batch decode
+[debug] After Init
+# FIRST REQUEST
+[engine debug] ***Add Request***
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] kv_cache_get_total_sequence_length_func_
+[engine debug] kv_cache_add_sequence_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_prefill_func_ or single_batch_extend_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+[debug] After request
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST_SEGMENT
+PRE_SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] ACTION - Batch decode
+POST_SEGMENT
+MLC-LLM Output: Can you introduce yourself?I'd be happy to introduce myself. I am an artificial intelligence assistant, which means I am a computer program designed to simulate conversation and answer questions to the best of my ability. I don't have a physical body or personal identity, but I am a helpful tool designed to assist and provide information to users like you.
+
+My goal is to provide accurate and helpful responses, and I strive to do so in a friendly and respectful manner. I can understand and respond to natural language inputs, and I can process and generate text at an impressive rate.
+
+If you'd like to know more about me or would like to test my abilities, feel free
+# SECOND REQUEST
+[engine debug] ***Add Request***
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] kv_cache_get_total_sequence_length_func_
+[engine debug] kv_cache_fork_sequence_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_prefill_func_ or single_batch_extend_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch decode
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] embed_func_
+[engine debug] kv_cache_begin_forward_func_
+[engine debug] single_batch_decode_func_
+[engine debug] kv_cache_end_forward_func_
+[engine debug] softmax_func_
+[engine debug] gpu_multinomial_from_uniform_func_
+POST SEGMENT
+PRE SEGMENT
+[engine debug] ACTION - NewRequestPrefill
+[engine debug] kv_cache_get_num_available_pages_func_
+[engine debug] ACTION - Batch jump forward
+[engine debug] ACTION - Batch decode
+POST SEGMENT
+MLC-LLM Output: How to graduate Ph.D course? It's too hardI totally understand your struggle! Graduating a Ph.D. program can be grueling and require extensive effort and dedication.
+
+Here's a general outline of the typical Ph.D. program and what you can expect:
+
+1. **Admission**: To be considered for graduate studies, usually you need to have a bachelor's degree from an accredited institution and demonstrate expertise in the field. Some departments may require a master's degree or relevant work experience.
+2. **Tuition fees**: Program fees can vary depending on the institution, department, and location (domestic vs. international). Expect to pay tuition fees for most programs.
+3. **Course

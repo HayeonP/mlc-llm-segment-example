@@ -1,0 +1,66 @@
+[engine debug] Start RunBackgroundLoop
+[engine debug] Start while loop
+[engine debug] Start fetch requests
+[engine debug] Reload engine
+[engine debug] EngineReloadImpl
+[engine debug] AutoDecideEngineConfig START
+[engine debug] Start Step
+[engine debug] End while loop
+[engine debug] Start while loop
+[debug] request
+[debug] <request>
+[debug]    <message>
+    Content: Answer the following question in one sentence. What is the capital of South Korea?
+    role: user
+    Name: None
+model: /home/rubis/workspace/mlc-llm/dist/Llama-3.2-1B-Instruct-q4f16_1-MLC
+frequency_penalty: None
+presence_penalty: None
+seed: None
+temperature: None
+top_p: None
+[engine debug] Start fetch requests
+[engine debug] Add Request
+[RequestStateEntry] parent idx:-1
+[engine debug] Start Step
+[engine debug] End while loop
+[engine debug] Start while loop
+[engine debug] Start fetch requests
+[engine debug] Start Step
+[engine debug] End while loop
+[engine debug] Start while loop
+[engine debug] Start fetch requests
+[engine debug] Start Step
+[engine debug] End while loop
+[engine debug] Start while loop
+[engine debug] Start fetch requests
+[engine debug] Start Step
+[engine debug] End while loop
+[engine debug] Start while loop
+[engine debug] Start fetch requests
+[engine debug] Start Step
+[engine debug] End while loop
+[engine debug] Start while loop
+[engine debug] Start fetch requests
+[engine debug] Start Step
+[engine debug] End while loop
+[engine debug] Start while loop
+[engine debug] Start fetch requests
+[engine debug] Start Step
+[engine debug] End while loop
+[engine debug] Start while loop
+[engine debug] Start fetch requests
+[engine debug] Start Step
+[engine debug] End while loop
+[engine debug] Start while loop
+[engine debug] Start fetch requests
+[engine debug] Start Step
+[engine debug] End while loop
+[engine debug] Start while loop
+[engine debug] Start fetch requests
+[engine debug] Start Step
+[engine debug] End while loop
+[engine debug] Start while loop
+MLC-LLM Output:  Seoul.
+Reasoning Skill: Define. 
+Step

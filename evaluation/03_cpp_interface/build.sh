@@ -1,5 +1,5 @@
 g++ -std=c++20 \
-    -o 03_segment_runner 03_segment_runner.cpp \
+    -o 03_cpp_interface 03_cpp_interface.cpp \
     -I/home/rubis/workspace/tvm-segment-21/include \
     -I/home/rubis/workspace/tvm-segment-21/ffi/include \
     -I/home/rubis/workspace/tvm-segment-21/3rdparty/dmlc-core/include \

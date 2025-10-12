@@ -1,0 +1,206 @@
+[engine debug] Start RunBackgroundLoop
+[engine debug] Start while loop
+[engine debug] Start fetch requests
+[engine debug] Reload engine
+[engine debug] EngineReloadImpl
+[engine debug] AutoDecideEngineConfig START
+[engine debug] Start Step
+[engine debug] End while loop
+[engine debug] Start while loop
+[engine debug] Start fetch requests
+[engine debug] Add Request
+[RequestStateEntry] parent idx:-1
+[engine debug] Start Step
+[engine debug] End while loop
+[engine debug] Start while loop
+[engine debug] Start fetch requests
+[engine debug] Start Step
+[engine debug] End while loop
+[engine debug] Start while loop
+[engine debug] Start fetch requests
+[engine debug] Start Step
+[engine debug] End while loop
+[engine debug] Start while loop
+[engine debug] Start fetch requests
+[engine debug] Start Step
+[engine debug] End while loop
+[engine debug] Start while loop
+[engine debug] Start fetch requests
+[engine debug] Start Step
+[engine debug] End while loop
+[engine debug] Start while loop
+[engine debug] Start fetch requests
+[engine debug] Start Step
+[engine debug] End while loop
+[engine debug] Start while loop
+[engine debug] Start fetch requests
+[engine debug] Start Step
+[engine debug] End while loop
+[engine debug] Start while loop
+[engine debug] Start fetch requests
+[engine debug] Start Step
+[engine debug] End while loop
+[engine debug] Start while loop
+[engine debug] Start fetch requests
+[engine debug] Start Step
+[engine debug] End while loop
+[engine debug] Start while loop
+[engine debug] Start fetch requests
+[engine debug] Start Step
+[engine debug] End while loop
+[engine debug] Start while loop
+[engine debug] Start fetch requests
+[engine debug] Start Step
+[engine debug] End while loop
+# Init MLCEngine
+# Inference
+[debug] request
+messages=[ChatCompletionMessage(
+    content='Answer the following question in one sentence. What is the capital of South Korea?',
+    role='user',
+    name=None,
+    tool_calls=None,
+    tool_call_id=None)
+    ]
+    model='/home/rubis/workspace/mlc-llm/dist/Llama-3.2-1B-Instruct-q4f16_1-MLC'
+    frequency_penalty=None
+    presence_penalty=None
+    logprobs=False top_logprobs=0
+    logit_bias=None
+    max_tokens=10
+    n=1
+    seed=None
+    stop=None
+    stream=False
+    stream_options=None
+    temperature=None
+    top_p=None
+    tools=None
+    tool_choice=None
+    user=None
+    response_format=None
+    debug_config=None
+!!!! CHECK 1 system template {system_message}
+CHECK 2:  Instruct: Answer the following question in one sentence. What is the capital of South Korea?
+
+CHECK 3: input_prompt - Instruct: Answer the following question in one sentence. What is the capital of South Korea?
+Output:
+CHECK 4:  [[644, 1257, 25, 22559, 279, 2768, 3488, 304, 832, 11914, 13, 3639, 374, 279, 6864, 315, 4987, 12126, 5380, 5207, 25]]
+!!!!HELLO [[644, 1257, 25, 22559, 279, 2768, 3488, 304, 832, 11914, 13, 3639, 374, 279, 6864, 315, 4987, 12126, 5380, 5207, 25]]
+case4
+!!!!HELLO [644, 1257, 25, 22559, 279, 2768, 3488, 304, 832, 11914, 13, 3639, 374, 279, 6864, 315, 4987, 12126, 5380, 5207, 25]
+case3
+=========== finish to create input data
+#i: 0
+start callback
+start detokenization
+[DEBUG] final usage: None
+[engine debug] request outputs size: 1
+[engine debug] request outputs[0] size: 1
+[DEBUG]request outputs
+[DEBUG]    delta_text:  Seoul
+[DEBUG]    finish_reason: None
+[DEBUG]    request_final_usage_json_str: None
+#i: 0
+start callback
+start detokenization
+[DEBUG] final usage: None
+[engine debug] request outputs size: 1
+[engine debug] request outputs[0] size: 1
+[DEBUG]request outputs
+[DEBUG]    delta_text: .
+[DEBUG]    finish_reason: None
+[DEBUG]    request_final_usage_json_str: None
+#i: 0
+start callback
+start detokenization
+[DEBUG] final usage: None
+[engine debug] request outputs size: 1
+[engine debug] request outputs[0] size: 1
+[DEBUG]request outputs
+[DEBUG]    delta_text: <|eot_id|>
+[DEBUG]    finish_reason: None
+[DEBUG]    request_final_usage_json_str: None
+#i: 0
+start callback
+start detokenization
+[DEBUG] final usage: None
+[engine debug] request outputs size: 1
+[engine debug] request outputs[0] size: 1
+[DEBUG]request outputs
+[DEBUG]    delta_text: <|start_header_id|>
+[DEBUG]    finish_reason: None
+[DEBUG]    request_final_usage_json_str: None
+#i: 0
+start callback
+start detokenization
+[DEBUG] final usage: None
+[engine debug] request outputs size: 1
+[engine debug] request outputs[0] size: 1
+[DEBUG]request outputs
+[DEBUG]    delta_text: assistant
+[DEBUG]    finish_reason: None
+[DEBUG]    request_final_usage_json_str: None
+#i: 0
+start callback
+start detokenization
+[DEBUG] final usage: None
+[engine debug] request outputs size: 1
+[engine debug] request outputs[0] size: 1
+[DEBUG]request outputs
+[DEBUG]    delta_text: ?
+
+
+[DEBUG]    finish_reason: None
+[DEBUG]    request_final_usage_json_str: None
+#i: 0
+start callback
+start detokenization
+[DEBUG] final usage: None
+[engine debug] request outputs size: 1
+[engine debug] request outputs[0] size: 1
+[DEBUG]request outputs
+[DEBUG]    delta_text: The
+[DEBUG]    finish_reason: None
+[DEBUG]    request_final_usage_json_str: None
+#i: 0
+start callback
+start detokenization
+[DEBUG] final usage: None
+[engine debug] request outputs size: 1
+[engine debug] request outputs[0] size: 1
+[DEBUG]request outputs
+[DEBUG]    delta_text:  best
+[DEBUG]    finish_reason: None
+[DEBUG]    request_final_usage_json_str: None
+#i: 0
+start callback
+start detokenization
+[DEBUG] final usage: None
+[engine debug] request outputs size: 1
+[engine debug] request outputs[0] size: 1
+[DEBUG]request outputs
+[DEBUG]    delta_text:  answer
+[DEBUG]    finish_reason: None
+[DEBUG]    request_final_usage_json_str: None
+#i: 0
+start callback
+start detokenization
+finish detokenization
+start callback
+[DEBUG] final usage: {"prompt_tokens":21,"completion_tokens":10,"total_tokens":31,"extra":{"prompt_tokens":21,"completion_tokens":10,"prefill_tokens":21,"decode_tokens":9,"jump_forward_tokens":0,"prefill_tokens_per_s":68.749329387121819,"decode_tokens_per_s":41.059229768357639,"end_to_end_latency_s":0.524653064,"ttft_s":0.30545752500000001,"inter_token_latency_s":0.052465306400000002}}
+[engine debug] request outputs size: 1
+[engine debug] request outputs[0] size: 1
+[DEBUG]request outputs
+[DEBUG]    delta_text:  is
+[DEBUG]    finish_reason: length
+[DEBUG]    request_final_usage_json_str: None
+[engine debug] output_texts [' Seoul.<|eot_id|><|start_header_id|>assistant?\n\nThe best answer is']
+# Termination
+# Get output
+========== MLC-LLM LLaMA 1B ==========
+
+MLC-LLM Output:
+Seoul.<|eot_id|><|start_header_id|>assistant?
+
+The best answer is

@@ -1,0 +1,211 @@
+instance 0
+0
+Finish request
+[debug] input token length: 164 / prefilled token length: 8
+---- prefill: 102ms
+[debug] input token length: 164 / prefilled token length: 16
+---- prefill: 72ms
+[debug] input token length: 164 / prefilled token length: 24
+---- prefill: 57ms
+[debug] input token length: 164 / prefilled token length: 32
+---- prefill: 40ms
+[debug] input token length: 164 / prefilled token length: 40
+---- prefill: 31ms
+[debug] input token length: 164 / prefilled token length: 48
+---- prefill: 32ms
+[debug] input token length: 164 / prefilled token length: 56
+---- prefill: 35ms
+[debug] input token length: 164 / prefilled token length: 64
+---- prefill: 41ms
+[debug] input token length: 164 / prefilled token length: 72
+---- prefill: 47ms
+[debug] input token length: 164 / prefilled token length: 80
+---- prefill: 69ms
+[debug] input token length: 164 / prefilled token length: 88
+---- prefill: 78ms
+[debug] input token length: 164 / prefilled token length: 96
+---- prefill: 59ms
+[debug] input token length: 164 / prefilled token length: 104
+---- prefill: 43ms
+[debug] input token length: 164 / prefilled token length: 112
+---- prefill: 34ms
+[debug] input token length: 164 / prefilled token length: 120
+---- prefill: 34ms
+[debug] input token length: 164 / prefilled token length: 128
+---- prefill: 35ms
+[debug] input token length: 164 / prefilled token length: 136
+---- prefill: 34ms
+[debug] input token length: 164 / prefilled token length: 144
+---- prefill: 35ms
+[debug] input token length: 164 / prefilled token length: 152
+---- prefill: 35ms
+[debug] input token length: 164 / prefilled token length: 160
+---- prefill: 35ms
+[debug] input token length: 164 / prefilled token length: 168
+---- prefill: 50ms
+===============================
+I think I see what's going on here!
+
+You're asking me to repeat the same question multiple times, but with varying levels of accuracy and completeness.
+
+To clarify, I'll provide a concise and accurate answer:
+
+**Artificial Intelligence (AI)** is a broad field of study that involves creating intelligent machines or systems that can perform tasks that typically require human intelligence, such as:
+
+* Learning
+* Problem-solving
+* Reasoning
+* Perception
+* Adaptation
+
+AI has various subfields, including:
+
+* Machine Learning
+* Deep Learning
+* Natural Language Processing
+* Robotics
+* Computer Vision
+
+AI is not just about creating intelligent machines; it also involves developing algorithms, models, and systems that can simulate human intelligence and behavior.
+
+So, to summarize, I'll provide a single, accurate answer:
+
+Artificial Intelligence (AI) is a broad field of study that involves creating intelligent machines or systems that can perform tasks that typically require human intelligence.
+instance 1
+0
+Finish request
+[debug] input token length: 164 / prefilled token length: 8
+---- prefill: 20ms
+[debug] input token length: 164 / prefilled token length: 16
+---- prefill: 11ms
+[debug] input token length: 164 / prefilled token length: 24
+---- prefill: 12ms
+[debug] input token length: 164 / prefilled token length: 32
+---- prefill: 12ms
+[debug] input token length: 164 / prefilled token length: 40
+---- prefill: 12ms
+[debug] input token length: 164 / prefilled token length: 48
+---- prefill: 12ms
+[debug] input token length: 164 / prefilled token length: 56
+---- prefill: 12ms
+[debug] input token length: 164 / prefilled token length: 64
+---- prefill: 11ms
+[debug] input token length: 164 / prefilled token length: 72
+---- prefill: 11ms
+[debug] input token length: 164 / prefilled token length: 80
+---- prefill: 11ms
+[debug] input token length: 164 / prefilled token length: 88
+---- prefill: 11ms
+[debug] input token length: 164 / prefilled token length: 96
+---- prefill: 11ms
+[debug] input token length: 164 / prefilled token length: 104
+---- prefill: 11ms
+[debug] input token length: 164 / prefilled token length: 112
+---- prefill: 11ms
+[debug] input token length: 164 / prefilled token length: 120
+---- prefill: 11ms
+[debug] input token length: 164 / prefilled token length: 128
+---- prefill: 11ms
+[debug] input token length: 164 / prefilled token length: 136
+---- prefill: 11ms
+[debug] input token length: 164 / prefilled token length: 144
+---- prefill: 11ms
+[debug] input token length: 164 / prefilled token length: 152
+---- prefill: 11ms
+[debug] input token length: 164 / prefilled token length: 160
+---- prefill: 11ms
+[debug] input token length: 164 / prefilled token length: 168
+---- prefill: 11ms
+===============================
+I think I see what you're getting at here!
+
+Aritificial Intelligence (AI) is a subset of artificial intelligence that refers to the development of computer systems that can simulate human intelligence, particularly in areas such as:
+
+1. **Learning**: AI systems can learn from data and improve their performance over time.
+2. **Problem-solving**: AI systems can solve problems and make decisions based on data and rules.
+3. **Reasoning**: AI systems can reason and make logical conclusions based on data and rules.
+4. **Perception**: AI systems can interpret and understand data from sensors, such as images and sounds.
+5. **Action**: AI systems can take actions and interact with the physical world.
+
+AI is typically created through machine learning algorithms, which are trained on data to learn patterns and relationships. This allows AI systems to make predictions, classify data, and perform other tasks that would typically require human intelligence.
+
+So, to answer your question, Aritificial Intelligence is a field of study and a type of artificial intelligence that focuses on developing intelligent systems that can simulate human intelligence.
+
+(And, just to clarify, I'm happy to provide answers to your questions, but I'll have to stop at 10 or 11 questions now!)
+instance 2
+0
+Finish request
+[debug] input token length: 164 / prefilled token length: 8
+---- prefill: 17ms
+[debug] input token length: 164 / prefilled token length: 16
+---- prefill: 11ms
+[debug] input token length: 164 / prefilled token length: 24
+---- prefill: 11ms
+[debug] input token length: 164 / prefilled token length: 32
+---- prefill: 11ms
+[debug] input token length: 164 / prefilled token length: 40
+---- prefill: 11ms
+[debug] input token length: 164 / prefilled token length: 48
+---- prefill: 11ms
+[debug] input token length: 164 / prefilled token length: 56
+---- prefill: 11ms
+[debug] input token length: 164 / prefilled token length: 64
+---- prefill: 11ms
+[debug] input token length: 164 / prefilled token length: 72
+---- prefill: 11ms
+[debug] input token length: 164 / prefilled token length: 80
+---- prefill: 12ms
+[debug] input token length: 164 / prefilled token length: 88
+---- prefill: 12ms
+[debug] input token length: 164 / prefilled token length: 96
+---- prefill: 12ms
+[debug] input token length: 164 / prefilled token length: 104
+---- prefill: 12ms
+[debug] input token length: 164 / prefilled token length: 112
+---- prefill: 12ms
+[debug] input token length: 164 / prefilled token length: 120
+---- prefill: 11ms
+[debug] input token length: 164 / prefilled token length: 128
+---- prefill: 11ms
+[debug] input token length: 164 / prefilled token length: 136
+---- prefill: 11ms
+[debug] input token length: 164 / prefilled token length: 144
+---- prefill: 11ms
+[debug] input token length: 164 / prefilled token length: 152
+---- prefill: 12ms
+[debug] input token length: 164 / prefilled token length: 160
+---- prefill: 12ms
+[debug] input token length: 164 / prefilled token length: 168
+---- prefill: 11ms
+===============================
+I think I see what you're getting at here!
+
+Aritificial Intelligence (AI) is a subset of artificial intelligence that refers to the development of computer systems that can simulate human intelligence, particularly in areas such as:
+
+1. **Learning**: AI systems can learn from data and improve their performance over time.
+2. **Problem-solving**: AI systems can solve problems and make decisions based on data and rules.
+3. **Reasoning**: AI systems can reason and make logical conclusions based on data and rules.
+4. **Perception**: AI systems can interpret and understand data from sensors, such as images and sounds.
+5. **Action**: AI systems can take actions and interact with the physical world.
+
+AI is typically created through machine learning algorithms, which are trained on data to learn patterns and relationships. This allows AI systems to make predictions, classify data, and perform other tasks that would typically require human intelligence.
+
+So, to answer your question, Aritificial Intelligence is a field of study and a type of artificial intelligence that focuses on developing intelligent systems that can simulate human intelligence.
+
+(And, just to clarify, I'm happy to provide answers to your questions, but I'll have to stop at 10 or 11 questions now!)
+===========================
+# request time
+Average response time: 1.87047ms
+Worst response time: 2.03903ms
+===========================
+# prefill time
+Average response time: 508.81ms
+Worst response time: 1008.91ms
+===========================
+# inference time
+Average response time: 2658.6ms
+Worst response time: 2792.46ms
+===========================
+# total time
+Average response time: 3169.3ms
+Worst response time: 3402.55ms

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+MAX_TOKENS=256
+PREFILL_CHUNK_SIZE=$1
+
+
+./02_cpp_segment_runner $MAX_TOKENS $PREFILL_CHUNK_SIZE

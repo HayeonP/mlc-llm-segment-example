@@ -1,0 +1,121 @@
+instance 0
+0
+Finish request
+[debug] input token length: 419 / prefilled token length: 32
+---- prefill: 107ms
+[debug] input token length: 419 / prefilled token length: 64
+---- prefill: 81ms
+[debug] input token length: 419 / prefilled token length: 96
+---- prefill: 67ms
+[debug] input token length: 419 / prefilled token length: 128
+---- prefill: 40ms
+[debug] input token length: 419 / prefilled token length: 160
+---- prefill: 36ms
+[debug] input token length: 419 / prefilled token length: 192
+---- prefill: 39ms
+[debug] input token length: 419 / prefilled token length: 224
+---- prefill: 42ms
+[debug] input token length: 419 / prefilled token length: 256
+---- prefill: 76ms
+[debug] input token length: 419 / prefilled token length: 288
+---- prefill: 107ms
+[debug] input token length: 419 / prefilled token length: 320
+---- prefill: 96ms
+[debug] input token length: 419 / prefilled token length: 352
+---- prefill: 45ms
+[debug] input token length: 419 / prefilled token length: 384
+---- prefill: 46ms
+[debug] input token length: 419 / prefilled token length: 416
+---- prefill: 48ms
+[debug] input token length: 419 / prefilled token length: 448
+---- prefill: 57ms
+===============================
+It looks like you're in the middle of running some code in your C++ program. The message indicates that you're currently running in a local mode, where you've specified the maximum batch size, KV cache token capacity, and prefill chunk size. These values are being used to estimate the total single GPU memory usage of your program.
+
+The estimated usage is around 2529.044 MB (parameters) + 386.073 MB (KV cache) + 1479.936 MB (temporary buffer) = 5045.822 MB. This is the actual usage of your program, which might be slightly larger due to various factors such as cache thrashing and GPU memory usage.
+instance 1
+0
+Finish request
+[debug] input token length: 419 / prefilled token length: 32
+---- prefill: 19ms
+[debug] input token length: 419 / prefilled token length: 64
+---- prefill: 12ms
+[debug] input token length: 419 / prefilled token length: 96
+---- prefill: 12ms
+[debug] input token length: 419 / prefilled token length: 128
+---- prefill: 12ms
+[debug] input token length: 419 / prefilled token length: 160
+---- prefill: 12ms
+[debug] input token length: 419 / prefilled token length: 192
+---- prefill: 12ms
+[debug] input token length: 419 / prefilled token length: 224
+---- prefill: 12ms
+[debug] input token length: 419 / prefilled token length: 256
+---- prefill: 12ms
+[debug] input token length: 419 / prefilled token length: 288
+---- prefill: 12ms
+[debug] input token length: 419 / prefilled token length: 320
+---- prefill: 12ms
+[debug] input token length: 419 / prefilled token length: 352
+---- prefill: 12ms
+[debug] input token length: 419 / prefilled token length: 384
+---- prefill: 12ms
+[debug] input token length: 419 / prefilled token length: 416
+---- prefill: 12ms
+[debug] input token length: 419 / prefilled token length: 448
+---- prefill: 12ms
+===============================
+It looks like you're in the middle of running some code in your C++ program. The message indicates that you're currently running in a local mode, where you've specified the maximum batch size, KV cache token capacity, and prefill chunk size. These values are being used to estimate the total single GPU memory usage of your program.
+
+The estimated usage is around 2529.044 MB (parameters) + 386.073 MB (KV cache) + 1479.936 MB (temporary buffer) = 5045.996 MB. This is the actual usage of your program, which might be slightly larger due to various factors such as cache thrashing and GPU memory usage.
+instance 2
+0
+Finish request
+[debug] input token length: 419 / prefilled token length: 32
+---- prefill: 17ms
+[debug] input token length: 419 / prefilled token length: 64
+---- prefill: 12ms
+[debug] input token length: 419 / prefilled token length: 96
+---- prefill: 12ms
+[debug] input token length: 419 / prefilled token length: 128
+---- prefill: 12ms
+[debug] input token length: 419 / prefilled token length: 160
+---- prefill: 12ms
+[debug] input token length: 419 / prefilled token length: 192
+---- prefill: 12ms
+[debug] input token length: 419 / prefilled token length: 224
+---- prefill: 12ms
+[debug] input token length: 419 / prefilled token length: 256
+---- prefill: 12ms
+[debug] input token length: 419 / prefilled token length: 288
+---- prefill: 12ms
+[debug] input token length: 419 / prefilled token length: 320
+---- prefill: 12ms
+[debug] input token length: 419 / prefilled token length: 352
+---- prefill: 12ms
+[debug] input token length: 419 / prefilled token length: 384
+---- prefill: 12ms
+[debug] input token length: 419 / prefilled token length: 416
+---- prefill: 12ms
+[debug] input token length: 419 / prefilled token length: 448
+---- prefill: 12ms
+===============================
+It looks like you're in the middle of running some code in your C++ program. The message indicates that you're currently running in a local mode, where you've specified the maximum batch size, KV cache token capacity, and prefill chunk size. These values are being used to estimate the total single GPU memory usage of your program.
+
+The estimated usage is around 2529.044 MB (parameters) + 386.073 MB (KV cache) + 1479.936 MB (temporary buffer) = 5045.996 MB. This is the actual usage of your program, which might be slightly larger due to various factors such as cache thrashing and GPU memory usage.
+===========================
+# request time
+Average response time: 2.99248ms
+Worst response time: 3.36396ms
+===========================
+# prefill time
+Average response time: 418.393ms
+Worst response time: 894.093ms
+===========================
+# inference time
+Average response time: 1733.3ms
+Worst response time: 2035.47ms
+===========================
+# total time
+Average response time: 2154.7ms
+Worst response time: 2931.9ms

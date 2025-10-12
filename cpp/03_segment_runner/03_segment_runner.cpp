@@ -14,6 +14,17 @@ using namespace ffi;
 using ChatCompletionRequest = mlc::llm::json_ffi::ChatCompletionRequest;
 using ChatCompletionResponse = mlc::llm::json_ffi::ChatCompletionResponse;
 
+std::string readFileToString(const std::string& filePath) {
+    std::ifstream file(filePath);
+    if (!file.is_open()) {
+        throw std::runtime_error("파일을 열 수 없습니다: " + filePath);
+    }
+
+    std::ostringstream buffer;
+    buffer << file.rdbuf();  // 전체 파일 내용을 스트림으로 읽기
+    return buffer.str();     // 문자열로 반환
+}
+
 int main(int argc, char* argv[]){
   std::string model_dir = "/home/rubis/workspace/llama/mlc-llm-models/llama-3.2-1b/workspace";
   std::string model_lib_path = model_dir + "/llama-3.2-1b-cuda.so";
@@ -28,7 +39,8 @@ int main(int argc, char* argv[]){
 
   // std::string prompt("Answer the following question in one sentence. What is the capital of South Korea?");
 
-  std::string prompt("Can you introduce yourself?");
+  // std::string prompt("Can you introduce yourself?");
+  std::string prompt = readFileToString("input.txt");
   
   // ChatCompletionRequest request = segment_runner.create_chat_completion_request(model_dir, prompt, max_tokens, stream);
 
@@ -37,32 +49,23 @@ int main(int argc, char* argv[]){
   segment_runner.Request(prompt, max_tokens);
   std::cout<<"[debug] After request"<<std::endl;
 
+  int chunk_size = 256;
+  while(!segment_runner.IsPrefillEnd()){
+    segment_runner.Prefill(chunk_size++); // TODO: Need to set prefill
+    std::cout<<"PEFILL"<<std::endl;
+  }
+
   bool is_end = false;
   std::string output = prompt;
 
   while(!segment_runner.IsEnd()){
     std::cout<<"PRE_SEGMENT"<<std::endl;
-    std::string delta = segment_runner.Execute();
+    std::string delta = segment_runner.Execute(1);
     std::cout<<"POST_SEGMENT"<<std::endl;
     output += delta;
   }
 
-  std::cout<<"MLC-LLM Output: "<<output<<std::endl;
-
-  std::cout<< "# SECOND REQUEST" << std::endl;
-  prompt = "How to graduate Ph.D course? It's too hard";
-  segment_runner.Request(prompt, max_tokens);
-
-  is_end = false;
-  output = prompt;
-  while(!segment_runner.IsEnd()){
-    std::cout<<"PRE SEGMENT"<<std::endl;
-    std::string delta = segment_runner.Execute();
-    std::cout<<"POST SEGMENT"<<std::endl;
-    output += delta;
-  }
-
-  std::cout<<"MLC-LLM Output: "<<output<<std::endl;
+  // std::cout<<"MLC-LLM Output: "<<output<<std::endl;
 
   return 0;
 }

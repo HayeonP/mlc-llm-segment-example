@@ -1,0 +1,913 @@
+instance 0
+0
+Finish request
+[debug] input token length: 1144 / prefilled token length: 8
+---- prefill: 103ms
+[debug] input token length: 1144 / prefilled token length: 16
+---- prefill: 72ms
+[debug] input token length: 1144 / prefilled token length: 24
+---- prefill: 49ms
+[debug] input token length: 1144 / prefilled token length: 32
+---- prefill: 40ms
+[debug] input token length: 1144 / prefilled token length: 40
+---- prefill: 31ms
+[debug] input token length: 1144 / prefilled token length: 48
+---- prefill: 32ms
+[debug] input token length: 1144 / prefilled token length: 56
+---- prefill: 37ms
+[debug] input token length: 1144 / prefilled token length: 64
+---- prefill: 43ms
+[debug] input token length: 1144 / prefilled token length: 72
+---- prefill: 50ms
+[debug] input token length: 1144 / prefilled token length: 80
+---- prefill: 79ms
+[debug] input token length: 1144 / prefilled token length: 88
+---- prefill: 70ms
+[debug] input token length: 1144 / prefilled token length: 96
+---- prefill: 47ms
+[debug] input token length: 1144 / prefilled token length: 104
+---- prefill: 33ms
+[debug] input token length: 1144 / prefilled token length: 112
+---- prefill: 34ms
+[debug] input token length: 1144 / prefilled token length: 120
+---- prefill: 34ms
+[debug] input token length: 1144 / prefilled token length: 128
+---- prefill: 34ms
+[debug] input token length: 1144 / prefilled token length: 136
+---- prefill: 34ms
+[debug] input token length: 1144 / prefilled token length: 144
+---- prefill: 35ms
+[debug] input token length: 1144 / prefilled token length: 152
+---- prefill: 35ms
+[debug] input token length: 1144 / prefilled token length: 160
+---- prefill: 35ms
+[debug] input token length: 1144 / prefilled token length: 168
+---- prefill: 35ms
+[debug] input token length: 1144 / prefilled token length: 176
+---- prefill: 36ms
+[debug] input token length: 1144 / prefilled token length: 184
+---- prefill: 36ms
+[debug] input token length: 1144 / prefilled token length: 192
+---- prefill: 36ms
+[debug] input token length: 1144 / prefilled token length: 200
+---- prefill: 36ms
+[debug] input token length: 1144 / prefilled token length: 208
+---- prefill: 38ms
+[debug] input token length: 1144 / prefilled token length: 216
+---- prefill: 37ms
+[debug] input token length: 1144 / prefilled token length: 224
+---- prefill: 37ms
+[debug] input token length: 1144 / prefilled token length: 232
+---- prefill: 38ms
+[debug] input token length: 1144 / prefilled token length: 240
+---- prefill: 38ms
+[debug] input token length: 1144 / prefilled token length: 248
+---- prefill: 38ms
+[debug] input token length: 1144 / prefilled token length: 256
+---- prefill: 38ms
+[debug] input token length: 1144 / prefilled token length: 264
+---- prefill: 38ms
+[debug] input token length: 1144 / prefilled token length: 272
+---- prefill: 39ms
+[debug] input token length: 1144 / prefilled token length: 280
+---- prefill: 39ms
+[debug] input token length: 1144 / prefilled token length: 288
+---- prefill: 39ms
+[debug] input token length: 1144 / prefilled token length: 296
+---- prefill: 39ms
+[debug] input token length: 1144 / prefilled token length: 304
+---- prefill: 40ms
+[debug] input token length: 1144 / prefilled token length: 312
+---- prefill: 39ms
+[debug] input token length: 1144 / prefilled token length: 320
+---- prefill: 40ms
+[debug] input token length: 1144 / prefilled token length: 328
+---- prefill: 40ms
+[debug] input token length: 1144 / prefilled token length: 336
+---- prefill: 42ms
+[debug] input token length: 1144 / prefilled token length: 344
+---- prefill: 41ms
+[debug] input token length: 1144 / prefilled token length: 352
+---- prefill: 41ms
+[debug] input token length: 1144 / prefilled token length: 360
+---- prefill: 41ms
+[debug] input token length: 1144 / prefilled token length: 368
+---- prefill: 42ms
+[debug] input token length: 1144 / prefilled token length: 376
+---- prefill: 42ms
+[debug] input token length: 1144 / prefilled token length: 384
+---- prefill: 42ms
+[debug] input token length: 1144 / prefilled token length: 392
+---- prefill: 43ms
+[debug] input token length: 1144 / prefilled token length: 400
+---- prefill: 43ms
+[debug] input token length: 1144 / prefilled token length: 408
+---- prefill: 43ms
+[debug] input token length: 1144 / prefilled token length: 416
+---- prefill: 43ms
+[debug] input token length: 1144 / prefilled token length: 424
+---- prefill: 43ms
+[debug] input token length: 1144 / prefilled token length: 432
+---- prefill: 45ms
+[debug] input token length: 1144 / prefilled token length: 440
+---- prefill: 44ms
+[debug] input token length: 1144 / prefilled token length: 448
+---- prefill: 44ms
+[debug] input token length: 1144 / prefilled token length: 456
+---- prefill: 44ms
+[debug] input token length: 1144 / prefilled token length: 464
+---- prefill: 45ms
+[debug] input token length: 1144 / prefilled token length: 472
+---- prefill: 45ms
+[debug] input token length: 1144 / prefilled token length: 480
+---- prefill: 45ms
+[debug] input token length: 1144 / prefilled token length: 488
+---- prefill: 45ms
+[debug] input token length: 1144 / prefilled token length: 496
+---- prefill: 45ms
+[debug] input token length: 1144 / prefilled token length: 504
+---- prefill: 46ms
+[debug] input token length: 1144 / prefilled token length: 512
+---- prefill: 46ms
+[debug] input token length: 1144 / prefilled token length: 520
+---- prefill: 46ms
+[debug] input token length: 1144 / prefilled token length: 528
+---- prefill: 46ms
+[debug] input token length: 1144 / prefilled token length: 536
+---- prefill: 47ms
+[debug] input token length: 1144 / prefilled token length: 544
+---- prefill: 48ms
+[debug] input token length: 1144 / prefilled token length: 552
+---- prefill: 48ms
+[debug] input token length: 1144 / prefilled token length: 560
+---- prefill: 47ms
+[debug] input token length: 1144 / prefilled token length: 568
+---- prefill: 47ms
+[debug] input token length: 1144 / prefilled token length: 576
+---- prefill: 48ms
+[debug] input token length: 1144 / prefilled token length: 584
+---- prefill: 49ms
+[debug] input token length: 1144 / prefilled token length: 592
+---- prefill: 49ms
+[debug] input token length: 1144 / prefilled token length: 600
+---- prefill: 50ms
+[debug] input token length: 1144 / prefilled token length: 608
+---- prefill: 48ms
+[debug] input token length: 1144 / prefilled token length: 616
+---- prefill: 50ms
+[debug] input token length: 1144 / prefilled token length: 624
+---- prefill: 49ms
+[debug] input token length: 1144 / prefilled token length: 632
+---- prefill: 50ms
+[debug] input token length: 1144 / prefilled token length: 640
+---- prefill: 51ms
+[debug] input token length: 1144 / prefilled token length: 648
+---- prefill: 50ms
+[debug] input token length: 1144 / prefilled token length: 656
+---- prefill: 51ms
+[debug] input token length: 1144 / prefilled token length: 664
+---- prefill: 50ms
+[debug] input token length: 1144 / prefilled token length: 672
+---- prefill: 50ms
+[debug] input token length: 1144 / prefilled token length: 680
+---- prefill: 52ms
+[debug] input token length: 1144 / prefilled token length: 688
+---- prefill: 52ms
+[debug] input token length: 1144 / prefilled token length: 696
+---- prefill: 52ms
+[debug] input token length: 1144 / prefilled token length: 704
+---- prefill: 52ms
+[debug] input token length: 1144 / prefilled token length: 712
+---- prefill: 51ms
+[debug] input token length: 1144 / prefilled token length: 720
+---- prefill: 53ms
+[debug] input token length: 1144 / prefilled token length: 728
+---- prefill: 52ms
+[debug] input token length: 1144 / prefilled token length: 736
+---- prefill: 52ms
+[debug] input token length: 1144 / prefilled token length: 744
+---- prefill: 52ms
+[debug] input token length: 1144 / prefilled token length: 752
+---- prefill: 55ms
+[debug] input token length: 1144 / prefilled token length: 760
+---- prefill: 54ms
+[debug] input token length: 1144 / prefilled token length: 768
+---- prefill: 53ms
+[debug] input token length: 1144 / prefilled token length: 776
+---- prefill: 53ms
+[debug] input token length: 1144 / prefilled token length: 784
+---- prefill: 55ms
+[debug] input token length: 1144 / prefilled token length: 792
+---- prefill: 54ms
+[debug] input token length: 1144 / prefilled token length: 800
+---- prefill: 55ms
+[debug] input token length: 1144 / prefilled token length: 808
+---- prefill: 55ms
+[debug] input token length: 1144 / prefilled token length: 816
+---- prefill: 57ms
+[debug] input token length: 1144 / prefilled token length: 824
+---- prefill: 56ms
+[debug] input token length: 1144 / prefilled token length: 832
+---- prefill: 56ms
+[debug] input token length: 1144 / prefilled token length: 840
+---- prefill: 56ms
+[debug] input token length: 1144 / prefilled token length: 848
+---- prefill: 56ms
+[debug] input token length: 1144 / prefilled token length: 856
+---- prefill: 59ms
+[debug] input token length: 1144 / prefilled token length: 864
+---- prefill: 56ms
+[debug] input token length: 1144 / prefilled token length: 872
+---- prefill: 57ms
+[debug] input token length: 1144 / prefilled token length: 880
+---- prefill: 57ms
+[debug] input token length: 1144 / prefilled token length: 888
+---- prefill: 58ms
+[debug] input token length: 1144 / prefilled token length: 896
+---- prefill: 59ms
+[debug] input token length: 1144 / prefilled token length: 904
+---- prefill: 58ms
+[debug] input token length: 1144 / prefilled token length: 912
+---- prefill: 58ms
+[debug] input token length: 1144 / prefilled token length: 920
+---- prefill: 58ms
+[debug] input token length: 1144 / prefilled token length: 928
+---- prefill: 58ms
+[debug] input token length: 1144 / prefilled token length: 936
+---- prefill: 59ms
+[debug] input token length: 1144 / prefilled token length: 944
+---- prefill: 60ms
+[debug] input token length: 1144 / prefilled token length: 952
+---- prefill: 60ms
+[debug] input token length: 1144 / prefilled token length: 960
+---- prefill: 59ms
+[debug] input token length: 1144 / prefilled token length: 968
+---- prefill: 60ms
+[debug] input token length: 1144 / prefilled token length: 976
+---- prefill: 61ms
+[debug] input token length: 1144 / prefilled token length: 984
+---- prefill: 61ms
+[debug] input token length: 1144 / prefilled token length: 992
+---- prefill: 59ms
+[debug] input token length: 1144 / prefilled token length: 1000
+---- prefill: 60ms
+[debug] input token length: 1144 / prefilled token length: 1008
+---- prefill: 61ms
+[debug] input token length: 1144 / prefilled token length: 1016
+---- prefill: 60ms
+[debug] input token length: 1144 / prefilled token length: 1024
+---- prefill: 60ms
+[debug] input token length: 1144 / prefilled token length: 1032
+---- prefill: 61ms
+[debug] input token length: 1144 / prefilled token length: 1040
+---- prefill: 64ms
+[debug] input token length: 1144 / prefilled token length: 1048
+---- prefill: 63ms
+[debug] input token length: 1144 / prefilled token length: 1056
+---- prefill: 61ms
+[debug] input token length: 1144 / prefilled token length: 1064
+---- prefill: 63ms
+[debug] input token length: 1144 / prefilled token length: 1072
+---- prefill: 64ms
+[debug] input token length: 1144 / prefilled token length: 1080
+---- prefill: 63ms
+[debug] input token length: 1144 / prefilled token length: 1088
+---- prefill: 62ms
+[debug] input token length: 1144 / prefilled token length: 1096
+---- prefill: 62ms
+[debug] input token length: 1144 / prefilled token length: 1104
+---- prefill: 65ms
+[debug] input token length: 1144 / prefilled token length: 1112
+---- prefill: 64ms
+[debug] input token length: 1144 / prefilled token length: 1120
+---- prefill: 64ms
+[debug] input token length: 1144 / prefilled token length: 1128
+---- prefill: 63ms
+[debug] input token length: 1144 / prefilled token length: 1136
+---- prefill: 64ms
+[debug] input token length: 1144 / prefilled token length: 1144
+---- prefill: 94ms
+===============================
+I think there may be a problem here.
+
+It looks like you've copied and pasted the same response multiple times, which means that the text is repeating itself infinitely. This is not a meaningful or useful response.
+
+To answer your original question, I'll provide a concise and accurate definition of Artificial Intelligence (AI):
+
+**Artificial Intelligence (AI)**: The development of computer systems that can perform tasks that typically require human intelligence, such as learning, problem-solving, and decision-making.
+
+I hope this helps clarify things! Let me know if you have any further questions or if there's anything else I can assist you with.
+instance 1
+0
+Finish request
+[debug] input token length: 1144 / prefilled token length: 8
+---- prefill: 31ms
+[debug] input token length: 1144 / prefilled token length: 16
+---- prefill: 31ms
+[debug] input token length: 1144 / prefilled token length: 24
+---- prefill: 32ms
+[debug] input token length: 1144 / prefilled token length: 32
+---- prefill: 32ms
+[debug] input token length: 1144 / prefilled token length: 40
+---- prefill: 32ms
+[debug] input token length: 1144 / prefilled token length: 48
+---- prefill: 33ms
+[debug] input token length: 1144 / prefilled token length: 56
+---- prefill: 32ms
+[debug] input token length: 1144 / prefilled token length: 64
+---- prefill: 32ms
+[debug] input token length: 1144 / prefilled token length: 72
+---- prefill: 32ms
+[debug] input token length: 1144 / prefilled token length: 80
+---- prefill: 33ms
+[debug] input token length: 1144 / prefilled token length: 88
+---- prefill: 33ms
+[debug] input token length: 1144 / prefilled token length: 96
+---- prefill: 33ms
+[debug] input token length: 1144 / prefilled token length: 104
+---- prefill: 33ms
+[debug] input token length: 1144 / prefilled token length: 112
+---- prefill: 34ms
+[debug] input token length: 1144 / prefilled token length: 120
+---- prefill: 35ms
+[debug] input token length: 1144 / prefilled token length: 128
+---- prefill: 34ms
+[debug] input token length: 1144 / prefilled token length: 136
+---- prefill: 34ms
+[debug] input token length: 1144 / prefilled token length: 144
+---- prefill: 35ms
+[debug] input token length: 1144 / prefilled token length: 152
+---- prefill: 35ms
+[debug] input token length: 1144 / prefilled token length: 160
+---- prefill: 35ms
+[debug] input token length: 1144 / prefilled token length: 168
+---- prefill: 35ms
+[debug] input token length: 1144 / prefilled token length: 176
+---- prefill: 36ms
+[debug] input token length: 1144 / prefilled token length: 184
+---- prefill: 36ms
+[debug] input token length: 1144 / prefilled token length: 192
+---- prefill: 36ms
+[debug] input token length: 1144 / prefilled token length: 200
+---- prefill: 36ms
+[debug] input token length: 1144 / prefilled token length: 208
+---- prefill: 37ms
+[debug] input token length: 1144 / prefilled token length: 216
+---- prefill: 37ms
+[debug] input token length: 1144 / prefilled token length: 224
+---- prefill: 37ms
+[debug] input token length: 1144 / prefilled token length: 232
+---- prefill: 37ms
+[debug] input token length: 1144 / prefilled token length: 240
+---- prefill: 38ms
+[debug] input token length: 1144 / prefilled token length: 248
+---- prefill: 38ms
+[debug] input token length: 1144 / prefilled token length: 256
+---- prefill: 38ms
+[debug] input token length: 1144 / prefilled token length: 264
+---- prefill: 38ms
+[debug] input token length: 1144 / prefilled token length: 272
+---- prefill: 40ms
+[debug] input token length: 1144 / prefilled token length: 280
+---- prefill: 39ms
+[debug] input token length: 1144 / prefilled token length: 288
+---- prefill: 39ms
+[debug] input token length: 1144 / prefilled token length: 296
+---- prefill: 39ms
+[debug] input token length: 1144 / prefilled token length: 304
+---- prefill: 40ms
+[debug] input token length: 1144 / prefilled token length: 312
+---- prefill: 40ms
+[debug] input token length: 1144 / prefilled token length: 320
+---- prefill: 40ms
+[debug] input token length: 1144 / prefilled token length: 328
+---- prefill: 40ms
+[debug] input token length: 1144 / prefilled token length: 336
+---- prefill: 42ms
+[debug] input token length: 1144 / prefilled token length: 344
+---- prefill: 41ms
+[debug] input token length: 1144 / prefilled token length: 352
+---- prefill: 41ms
+[debug] input token length: 1144 / prefilled token length: 360
+---- prefill: 41ms
+[debug] input token length: 1144 / prefilled token length: 368
+---- prefill: 42ms
+[debug] input token length: 1144 / prefilled token length: 376
+---- prefill: 42ms
+[debug] input token length: 1144 / prefilled token length: 384
+---- prefill: 42ms
+[debug] input token length: 1144 / prefilled token length: 392
+---- prefill: 42ms
+[debug] input token length: 1144 / prefilled token length: 400
+---- prefill: 43ms
+[debug] input token length: 1144 / prefilled token length: 408
+---- prefill: 43ms
+[debug] input token length: 1144 / prefilled token length: 416
+---- prefill: 43ms
+[debug] input token length: 1144 / prefilled token length: 424
+---- prefill: 44ms
+[debug] input token length: 1144 / prefilled token length: 432
+---- prefill: 44ms
+[debug] input token length: 1144 / prefilled token length: 440
+---- prefill: 44ms
+[debug] input token length: 1144 / prefilled token length: 448
+---- prefill: 44ms
+[debug] input token length: 1144 / prefilled token length: 456
+---- prefill: 44ms
+[debug] input token length: 1144 / prefilled token length: 464
+---- prefill: 45ms
+[debug] input token length: 1144 / prefilled token length: 472
+---- prefill: 45ms
+[debug] input token length: 1144 / prefilled token length: 480
+---- prefill: 45ms
+[debug] input token length: 1144 / prefilled token length: 488
+---- prefill: 45ms
+[debug] input token length: 1144 / prefilled token length: 496
+---- prefill: 46ms
+[debug] input token length: 1144 / prefilled token length: 504
+---- prefill: 46ms
+[debug] input token length: 1144 / prefilled token length: 512
+---- prefill: 45ms
+[debug] input token length: 1144 / prefilled token length: 520
+---- prefill: 46ms
+[debug] input token length: 1144 / prefilled token length: 528
+---- prefill: 47ms
+[debug] input token length: 1144 / prefilled token length: 536
+---- prefill: 47ms
+[debug] input token length: 1144 / prefilled token length: 544
+---- prefill: 47ms
+[debug] input token length: 1144 / prefilled token length: 552
+---- prefill: 46ms
+[debug] input token length: 1144 / prefilled token length: 560
+---- prefill: 48ms
+[debug] input token length: 1144 / prefilled token length: 568
+---- prefill: 48ms
+[debug] input token length: 1144 / prefilled token length: 576
+---- prefill: 47ms
+[debug] input token length: 1144 / prefilled token length: 584
+---- prefill: 48ms
+[debug] input token length: 1144 / prefilled token length: 592
+---- prefill: 49ms
+[debug] input token length: 1144 / prefilled token length: 600
+---- prefill: 49ms
+[debug] input token length: 1144 / prefilled token length: 608
+---- prefill: 49ms
+[debug] input token length: 1144 / prefilled token length: 616
+---- prefill: 50ms
+[debug] input token length: 1144 / prefilled token length: 624
+---- prefill: 51ms
+[debug] input token length: 1144 / prefilled token length: 632
+---- prefill: 49ms
+[debug] input token length: 1144 / prefilled token length: 640
+---- prefill: 50ms
+[debug] input token length: 1144 / prefilled token length: 648
+---- prefill: 49ms
+[debug] input token length: 1144 / prefilled token length: 656
+---- prefill: 51ms
+[debug] input token length: 1144 / prefilled token length: 664
+---- prefill: 51ms
+[debug] input token length: 1144 / prefilled token length: 672
+---- prefill: 50ms
+[debug] input token length: 1144 / prefilled token length: 680
+---- prefill: 51ms
+[debug] input token length: 1144 / prefilled token length: 688
+---- prefill: 52ms
+[debug] input token length: 1144 / prefilled token length: 696
+---- prefill: 52ms
+[debug] input token length: 1144 / prefilled token length: 704
+---- prefill: 52ms
+[debug] input token length: 1144 / prefilled token length: 712
+---- prefill: 52ms
+[debug] input token length: 1144 / prefilled token length: 720
+---- prefill: 52ms
+[debug] input token length: 1144 / prefilled token length: 728
+---- prefill: 53ms
+[debug] input token length: 1144 / prefilled token length: 736
+---- prefill: 54ms
+[debug] input token length: 1144 / prefilled token length: 744
+---- prefill: 54ms
+[debug] input token length: 1144 / prefilled token length: 752
+---- prefill: 52ms
+[debug] input token length: 1144 / prefilled token length: 760
+---- prefill: 54ms
+[debug] input token length: 1144 / prefilled token length: 768
+---- prefill: 55ms
+[debug] input token length: 1144 / prefilled token length: 776
+---- prefill: 54ms
+[debug] input token length: 1144 / prefilled token length: 784
+---- prefill: 54ms
+[debug] input token length: 1144 / prefilled token length: 792
+---- prefill: 54ms
+[debug] input token length: 1144 / prefilled token length: 800
+---- prefill: 55ms
+[debug] input token length: 1144 / prefilled token length: 808
+---- prefill: 55ms
+[debug] input token length: 1144 / prefilled token length: 816
+---- prefill: 58ms
+[debug] input token length: 1144 / prefilled token length: 824
+---- prefill: 56ms
+[debug] input token length: 1144 / prefilled token length: 832
+---- prefill: 55ms
+[debug] input token length: 1144 / prefilled token length: 840
+---- prefill: 56ms
+[debug] input token length: 1144 / prefilled token length: 848
+---- prefill: 56ms
+[debug] input token length: 1144 / prefilled token length: 856
+---- prefill: 55ms
+[debug] input token length: 1144 / prefilled token length: 864
+---- prefill: 58ms
+[debug] input token length: 1144 / prefilled token length: 872
+---- prefill: 57ms
+[debug] input token length: 1144 / prefilled token length: 880
+---- prefill: 58ms
+[debug] input token length: 1144 / prefilled token length: 888
+---- prefill: 58ms
+[debug] input token length: 1144 / prefilled token length: 896
+---- prefill: 57ms
+[debug] input token length: 1144 / prefilled token length: 904
+---- prefill: 57ms
+[debug] input token length: 1144 / prefilled token length: 912
+---- prefill: 58ms
+[debug] input token length: 1144 / prefilled token length: 920
+---- prefill: 58ms
+[debug] input token length: 1144 / prefilled token length: 928
+---- prefill: 58ms
+[debug] input token length: 1144 / prefilled token length: 936
+---- prefill: 57ms
+[debug] input token length: 1144 / prefilled token length: 944
+---- prefill: 58ms
+[debug] input token length: 1144 / prefilled token length: 952
+---- prefill: 60ms
+[debug] input token length: 1144 / prefilled token length: 960
+---- prefill: 59ms
+[debug] input token length: 1144 / prefilled token length: 968
+---- prefill: 59ms
+[debug] input token length: 1144 / prefilled token length: 976
+---- prefill: 60ms
+[debug] input token length: 1144 / prefilled token length: 984
+---- prefill: 61ms
+[debug] input token length: 1144 / prefilled token length: 992
+---- prefill: 61ms
+[debug] input token length: 1144 / prefilled token length: 1000
+---- prefill: 61ms
+[debug] input token length: 1144 / prefilled token length: 1008
+---- prefill: 61ms
+[debug] input token length: 1144 / prefilled token length: 1016
+---- prefill: 61ms
+[debug] input token length: 1144 / prefilled token length: 1024
+---- prefill: 63ms
+[debug] input token length: 1144 / prefilled token length: 1032
+---- prefill: 62ms
+[debug] input token length: 1144 / prefilled token length: 1040
+---- prefill: 61ms
+[debug] input token length: 1144 / prefilled token length: 1048
+---- prefill: 62ms
+[debug] input token length: 1144 / prefilled token length: 1056
+---- prefill: 63ms
+[debug] input token length: 1144 / prefilled token length: 1064
+---- prefill: 64ms
+[debug] input token length: 1144 / prefilled token length: 1072
+---- prefill: 64ms
+[debug] input token length: 1144 / prefilled token length: 1080
+---- prefill: 63ms
+[debug] input token length: 1144 / prefilled token length: 1088
+---- prefill: 64ms
+[debug] input token length: 1144 / prefilled token length: 1096
+---- prefill: 63ms
+[debug] input token length: 1144 / prefilled token length: 1104
+---- prefill: 64ms
+[debug] input token length: 1144 / prefilled token length: 1112
+---- prefill: 66ms
+[debug] input token length: 1144 / prefilled token length: 1120
+---- prefill: 65ms
+[debug] input token length: 1144 / prefilled token length: 1128
+---- prefill: 65ms
+[debug] input token length: 1144 / prefilled token length: 1136
+---- prefill: 65ms
+[debug] input token length: 1144 / prefilled token length: 1144
+---- prefill: 68ms
+===============================
+I think there may be a problem here.
+
+It looks like you've copied and pasted the same response multiple times, which means that the text is repeating itself infinitely. This is not a meaningful or useful response.
+
+To answer your original question, I'll provide a concise and accurate definition of Artificial Intelligence (AI):
+
+**Artificial Intelligence (AI)**: The development of computer systems that can perform tasks that typically require human intelligence, such as learning, problem-solving, and decision-making.
+
+I hope this helps clarify things! Let me know if you have any further questions or if there's anything else I can assist you with.
+instance 2
+0
+Finish request
+[debug] input token length: 1144 / prefilled token length: 8
+---- prefill: 30ms
+[debug] input token length: 1144 / prefilled token length: 16
+---- prefill: 31ms
+[debug] input token length: 1144 / prefilled token length: 24
+---- prefill: 31ms
+[debug] input token length: 1144 / prefilled token length: 32
+---- prefill: 32ms
+[debug] input token length: 1144 / prefilled token length: 40
+---- prefill: 32ms
+[debug] input token length: 1144 / prefilled token length: 48
+---- prefill: 32ms
+[debug] input token length: 1144 / prefilled token length: 56
+---- prefill: 33ms
+[debug] input token length: 1144 / prefilled token length: 64
+---- prefill: 32ms
+[debug] input token length: 1144 / prefilled token length: 72
+---- prefill: 33ms
+[debug] input token length: 1144 / prefilled token length: 80
+---- prefill: 33ms
+[debug] input token length: 1144 / prefilled token length: 88
+---- prefill: 33ms
+[debug] input token length: 1144 / prefilled token length: 96
+---- prefill: 33ms
+[debug] input token length: 1144 / prefilled token length: 104
+---- prefill: 33ms
+[debug] input token length: 1144 / prefilled token length: 112
+---- prefill: 34ms
+[debug] input token length: 1144 / prefilled token length: 120
+---- prefill: 34ms
+[debug] input token length: 1144 / prefilled token length: 128
+---- prefill: 34ms
+[debug] input token length: 1144 / prefilled token length: 136
+---- prefill: 34ms
+[debug] input token length: 1144 / prefilled token length: 144
+---- prefill: 35ms
+[debug] input token length: 1144 / prefilled token length: 152
+---- prefill: 35ms
+[debug] input token length: 1144 / prefilled token length: 160
+---- prefill: 35ms
+[debug] input token length: 1144 / prefilled token length: 168
+---- prefill: 35ms
+[debug] input token length: 1144 / prefilled token length: 176
+---- prefill: 36ms
+[debug] input token length: 1144 / prefilled token length: 184
+---- prefill: 36ms
+[debug] input token length: 1144 / prefilled token length: 192
+---- prefill: 36ms
+[debug] input token length: 1144 / prefilled token length: 200
+---- prefill: 36ms
+[debug] input token length: 1144 / prefilled token length: 208
+---- prefill: 37ms
+[debug] input token length: 1144 / prefilled token length: 216
+---- prefill: 37ms
+[debug] input token length: 1144 / prefilled token length: 224
+---- prefill: 37ms
+[debug] input token length: 1144 / prefilled token length: 232
+---- prefill: 37ms
+[debug] input token length: 1144 / prefilled token length: 240
+---- prefill: 38ms
+[debug] input token length: 1144 / prefilled token length: 248
+---- prefill: 38ms
+[debug] input token length: 1144 / prefilled token length: 256
+---- prefill: 39ms
+[debug] input token length: 1144 / prefilled token length: 264
+---- prefill: 38ms
+[debug] input token length: 1144 / prefilled token length: 272
+---- prefill: 39ms
+[debug] input token length: 1144 / prefilled token length: 280
+---- prefill: 39ms
+[debug] input token length: 1144 / prefilled token length: 288
+---- prefill: 39ms
+[debug] input token length: 1144 / prefilled token length: 296
+---- prefill: 39ms
+[debug] input token length: 1144 / prefilled token length: 304
+---- prefill: 40ms
+[debug] input token length: 1144 / prefilled token length: 312
+---- prefill: 40ms
+[debug] input token length: 1144 / prefilled token length: 320
+---- prefill: 40ms
+[debug] input token length: 1144 / prefilled token length: 328
+---- prefill: 41ms
+[debug] input token length: 1144 / prefilled token length: 336
+---- prefill: 41ms
+[debug] input token length: 1144 / prefilled token length: 344
+---- prefill: 41ms
+[debug] input token length: 1144 / prefilled token length: 352
+---- prefill: 41ms
+[debug] input token length: 1144 / prefilled token length: 360
+---- prefill: 41ms
+[debug] input token length: 1144 / prefilled token length: 368
+---- prefill: 42ms
+[debug] input token length: 1144 / prefilled token length: 376
+---- prefill: 42ms
+[debug] input token length: 1144 / prefilled token length: 384
+---- prefill: 42ms
+[debug] input token length: 1144 / prefilled token length: 392
+---- prefill: 42ms
+[debug] input token length: 1144 / prefilled token length: 400
+---- prefill: 43ms
+[debug] input token length: 1144 / prefilled token length: 408
+---- prefill: 43ms
+[debug] input token length: 1144 / prefilled token length: 416
+---- prefill: 43ms
+[debug] input token length: 1144 / prefilled token length: 424
+---- prefill: 43ms
+[debug] input token length: 1144 / prefilled token length: 432
+---- prefill: 44ms
+[debug] input token length: 1144 / prefilled token length: 440
+---- prefill: 44ms
+[debug] input token length: 1144 / prefilled token length: 448
+---- prefill: 44ms
+[debug] input token length: 1144 / prefilled token length: 456
+---- prefill: 44ms
+[debug] input token length: 1144 / prefilled token length: 464
+---- prefill: 45ms
+[debug] input token length: 1144 / prefilled token length: 472
+---- prefill: 44ms
+[debug] input token length: 1144 / prefilled token length: 480
+---- prefill: 45ms
+[debug] input token length: 1144 / prefilled token length: 488
+---- prefill: 45ms
+[debug] input token length: 1144 / prefilled token length: 496
+---- prefill: 46ms
+[debug] input token length: 1144 / prefilled token length: 504
+---- prefill: 46ms
+[debug] input token length: 1144 / prefilled token length: 512
+---- prefill: 46ms
+[debug] input token length: 1144 / prefilled token length: 520
+---- prefill: 45ms
+[debug] input token length: 1144 / prefilled token length: 528
+---- prefill: 46ms
+[debug] input token length: 1144 / prefilled token length: 536
+---- prefill: 47ms
+[debug] input token length: 1144 / prefilled token length: 544
+---- prefill: 47ms
+[debug] input token length: 1144 / prefilled token length: 552
+---- prefill: 47ms
+[debug] input token length: 1144 / prefilled token length: 560
+---- prefill: 48ms
+[debug] input token length: 1144 / prefilled token length: 568
+---- prefill: 48ms
+[debug] input token length: 1144 / prefilled token length: 576
+---- prefill: 48ms
+[debug] input token length: 1144 / prefilled token length: 584
+---- prefill: 48ms
+[debug] input token length: 1144 / prefilled token length: 592
+---- prefill: 48ms
+[debug] input token length: 1144 / prefilled token length: 600
+---- prefill: 48ms
+[debug] input token length: 1144 / prefilled token length: 608
+---- prefill: 49ms
+[debug] input token length: 1144 / prefilled token length: 616
+---- prefill: 49ms
+[debug] input token length: 1144 / prefilled token length: 624
+---- prefill: 50ms
+[debug] input token length: 1144 / prefilled token length: 632
+---- prefill: 49ms
+[debug] input token length: 1144 / prefilled token length: 640
+---- prefill: 51ms
+[debug] input token length: 1144 / prefilled token length: 648
+---- prefill: 50ms
+[debug] input token length: 1144 / prefilled token length: 656
+---- prefill: 50ms
+[debug] input token length: 1144 / prefilled token length: 664
+---- prefill: 51ms
+[debug] input token length: 1144 / prefilled token length: 672
+---- prefill: 51ms
+[debug] input token length: 1144 / prefilled token length: 680
+---- prefill: 51ms
+[debug] input token length: 1144 / prefilled token length: 688
+---- prefill: 51ms
+[debug] input token length: 1144 / prefilled token length: 696
+---- prefill: 53ms
+[debug] input token length: 1144 / prefilled token length: 704
+---- prefill: 51ms
+[debug] input token length: 1144 / prefilled token length: 712
+---- prefill: 52ms
+[debug] input token length: 1144 / prefilled token length: 720
+---- prefill: 52ms
+[debug] input token length: 1144 / prefilled token length: 728
+---- prefill: 53ms
+[debug] input token length: 1144 / prefilled token length: 736
+---- prefill: 52ms
+[debug] input token length: 1144 / prefilled token length: 744
+---- prefill: 52ms
+[debug] input token length: 1144 / prefilled token length: 752
+---- prefill: 53ms
+[debug] input token length: 1144 / prefilled token length: 760
+---- prefill: 53ms
+[debug] input token length: 1144 / prefilled token length: 768
+---- prefill: 54ms
+[debug] input token length: 1144 / prefilled token length: 776
+---- prefill: 54ms
+[debug] input token length: 1144 / prefilled token length: 784
+---- prefill: 54ms
+[debug] input token length: 1144 / prefilled token length: 792
+---- prefill: 54ms
+[debug] input token length: 1144 / prefilled token length: 800
+---- prefill: 55ms
+[debug] input token length: 1144 / prefilled token length: 808
+---- prefill: 55ms
+[debug] input token length: 1144 / prefilled token length: 816
+---- prefill: 56ms
+[debug] input token length: 1144 / prefilled token length: 824
+---- prefill: 55ms
+[debug] input token length: 1144 / prefilled token length: 832
+---- prefill: 55ms
+[debug] input token length: 1144 / prefilled token length: 840
+---- prefill: 56ms
+[debug] input token length: 1144 / prefilled token length: 848
+---- prefill: 58ms
+[debug] input token length: 1144 / prefilled token length: 856
+---- prefill: 57ms
+[debug] input token length: 1144 / prefilled token length: 864
+---- prefill: 57ms
+[debug] input token length: 1144 / prefilled token length: 872
+---- prefill: 57ms
+[debug] input token length: 1144 / prefilled token length: 880
+---- prefill: 57ms
+[debug] input token length: 1144 / prefilled token length: 888
+---- prefill: 57ms
+[debug] input token length: 1144 / prefilled token length: 896
+---- prefill: 58ms
+[debug] input token length: 1144 / prefilled token length: 904
+---- prefill: 57ms
+[debug] input token length: 1144 / prefilled token length: 912
+---- prefill: 58ms
+[debug] input token length: 1144 / prefilled token length: 920
+---- prefill: 59ms
+[debug] input token length: 1144 / prefilled token length: 928
+---- prefill: 58ms
+[debug] input token length: 1144 / prefilled token length: 936
+---- prefill: 58ms
+[debug] input token length: 1144 / prefilled token length: 944
+---- prefill: 59ms
+[debug] input token length: 1144 / prefilled token length: 952
+---- prefill: 60ms
+[debug] input token length: 1144 / prefilled token length: 960
+---- prefill: 59ms
+[debug] input token length: 1144 / prefilled token length: 968
+---- prefill: 59ms
+[debug] input token length: 1144 / prefilled token length: 976
+---- prefill: 59ms
+[debug] input token length: 1144 / prefilled token length: 984
+---- prefill: 60ms
+[debug] input token length: 1144 / prefilled token length: 992
+---- prefill: 60ms
+[debug] input token length: 1144 / prefilled token length: 1000
+---- prefill: 60ms
+[debug] input token length: 1144 / prefilled token length: 1008
+---- prefill: 60ms
+[debug] input token length: 1144 / prefilled token length: 1016
+---- prefill: 61ms
+[debug] input token length: 1144 / prefilled token length: 1024
+---- prefill: 60ms
+[debug] input token length: 1144 / prefilled token length: 1032
+---- prefill: 61ms
+[debug] input token length: 1144 / prefilled token length: 1040
+---- prefill: 63ms
+[debug] input token length: 1144 / prefilled token length: 1048
+---- prefill: 63ms
+[debug] input token length: 1144 / prefilled token length: 1056
+---- prefill: 63ms
+[debug] input token length: 1144 / prefilled token length: 1064
+---- prefill: 62ms
+[debug] input token length: 1144 / prefilled token length: 1072
+---- prefill: 63ms
+[debug] input token length: 1144 / prefilled token length: 1080
+---- prefill: 63ms
+[debug] input token length: 1144 / prefilled token length: 1088
+---- prefill: 66ms
+[debug] input token length: 1144 / prefilled token length: 1096
+---- prefill: 64ms
+[debug] input token length: 1144 / prefilled token length: 1104
+---- prefill: 65ms
+[debug] input token length: 1144 / prefilled token length: 1112
+---- prefill: 64ms
+[debug] input token length: 1144 / prefilled token length: 1120
+---- prefill: 66ms
+[debug] input token length: 1144 / prefilled token length: 1128
+---- prefill: 64ms
+[debug] input token length: 1144 / prefilled token length: 1136
+---- prefill: 65ms
+[debug] input token length: 1144 / prefilled token length: 1144
+---- prefill: 64ms
+===============================
+I think there may be a problem here.
+
+It looks like you've copied and pasted the same response multiple times, which means that the text is repeating itself infinitely. This is not a meaningful or useful response.
+
+To answer your original question, I'll provide a concise and accurate definition of Artificial Intelligence (AI):
+
+**Artificial Intelligence (AI)**: The development of computer systems that can perform tasks that typically require human intelligence, such as learning, problem-solving, and decision-making.
+
+I hope this helps clarify things! Let me know if you have any further questions or if there's anything else I can assist you with.
+===========================
+# request time
+Average response time: 5.79438ms
+Worst response time: 6.86136ms
+===========================
+# prefill time
+Average response time: 7032.99ms
+Worst response time: 7223.33ms
+===========================
+# inference time
+Average response time: 1697.5ms
+Worst response time: 1745.88ms
+===========================
+# total time
+Average response time: 8736.31ms
+Worst response time: 8973.24ms

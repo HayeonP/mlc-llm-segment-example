@@ -1,0 +1,207 @@
+### START STEP
+[engine debug] Threaded engine AddRequest()
+n: 1
+temperature: 0.6
+top_p: 0.9
+frequency_penalty: 0
+presence_penalty: 0
+repetition_penalty: 1
+logprobs: 0
+top_logprobs: 0
+seed: 4542
+max_tokens: 16
+### START STEP
+num rsentries:1
+[engine debug] erase waiting queue at batch prefill
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] Process finished requests: 0
+[engine debug] Call request stream at the end the end of actions
+### START STEP
+[debug engine] request entry data size
+inputs size: 1
+input[0] data size: 30
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] Process finished requests: 0
+[engine debug] Call request stream at the end the end of actions
+### START STEP
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] Process finished requests: 0
+[engine debug] Call request stream at the end the end of actions
+### START STEP
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] Process finished requests: 0
+[engine debug] Call request stream at the end the end of actions
+### START STEP
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] Process finished requests: 0
+[engine debug] Call request stream at the end the end of actions
+### START STEP
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] Process finished requests: 0
+[engine debug] Call request stream at the end the end of actions
+### START STEP
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] Process finished requests: 0
+[engine debug] Call request stream at the end the end of actions
+### START STEP
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] Process finished requests: 0
+[engine debug] Call request stream at the end the end of actions
+### START STEP
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] Process finished requests: 0
+[engine debug] Call request stream at the end the end of actions
+### START STEP
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] Process finished requests: 0
+[engine debug] Call request stream at the end the end of actions
+### START STEP
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] Process finished requests: 0
+[engine debug] Call request stream at the end the end of actions
+### START STEP
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] Process finished requests: 0
+[engine debug] Call request stream at the end the end of actions
+### START STEP
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] Process finished requests: 0
+[engine debug] Call request stream at the end the end of actions
+### START STEP
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] Process finished requests: 0
+[engine debug] Call request stream at the end the end of actions
+### START STEP
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] Process finished requests: 0
+[engine debug] Call request stream at the end the end of actions
+### START STEP
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] finish reason is detected!
+[engine debug] Process finished requests: 1
+[engine debug] erase request state by ProcessFinishedRequestStateEntries
+[engine debug] Call request stream at the end the end of actions
+[engine debug] Threaded engine AddRequest()
+n: 1
+temperature: 0.6
+top_p: 0.9
+frequency_penalty: 0
+presence_penalty: 0
+repetition_penalty: 1
+logprobs: 0
+top_logprobs: 0
+seed: 4542
+max_tokens: 16
+### START STEP
+num rsentries:1
+[engine debug] erase waiting queue at batch prefill
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] Process finished requests: 0
+[engine debug] Call request stream at the end the end of actions
+### START STEP
+[debug engine] request entry data size
+inputs size: 1
+input[0] data size: 30
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] Process finished requests: 0
+[engine debug] Call request stream at the end the end of actions
+### START STEP
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] Process finished requests: 0
+[engine debug] Call request stream at the end the end of actions
+### START STEP
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] Process finished requests: 0
+[engine debug] Call request stream at the end the end of actions
+### START STEP
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] Process finished requests: 0
+[engine debug] Call request stream at the end the end of actions
+### START STEP
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] Process finished requests: 0
+[engine debug] Call request stream at the end the end of actions
+### START STEP
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] Process finished requests: 0
+[engine debug] Call request stream at the end the end of actions
+### START STEP
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] Process finished requests: 0
+[engine debug] Call request stream at the end the end of actions
+### START STEP
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] Process finished requests: 0
+[engine debug] Call request stream at the end the end of actions
+### START STEP
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] Process finished requests: 0
+[engine debug] Call request stream at the end the end of actions
+### START STEP
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] Process finished requests: 0
+[engine debug] Call request stream at the end the end of actions
+### START STEP
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] Process finished requests: 0
+[engine debug] Call request stream at the end the end of actions
+### START STEP
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] Process finished requests: 0
+[engine debug] Call request stream at the end the end of actions
+### START STEP
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] Process finished requests: 0
+[engine debug] Call request stream at the end the end of actions
+### START STEP
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] Process finished requests: 0
+[engine debug] Call request stream at the end the end of actions
+### START STEP
+### Try post processing
+[engine debug] requests size: 1
+[engine debug] finish reason is detected!
+[engine debug] Process finished requests: 1
+[engine debug] erase request state by ProcessFinishedRequestStateEntries
+[engine debug] Call request stream at the end the end of actions
+### START STEP
+I'd be happy to introduce myself.
+
+I am an artificial intelligence assistant, which
+=========================
+I'd be happy to introduce myself.
+
+I am an artificial intelligence assistant, which
+=========================
+# Termination
