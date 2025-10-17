@@ -1,8 +1,8 @@
 import time
 from mlc_llm import MLCEngine
 from tqdm import tqdm
-MODEL_DIR = "/home/rubis/workspace/mlc-llm/dist/Llama-3.2-1B-Instruct-q4f16_1-MLC"
-MODEL_SO = MODEL_DIR + "/Llama-3.2-1B-Instruct-q4f16_1-MLC.so"
+MODEL_DIR = "/home/rubis/workspace/llama/mlc-llm-models/llama-3.2-1b/workspace"
+MODEL_SO = MODEL_DIR + "/llama-3.2-1b-cuda.so"
 
 prompt = "Answer the following question in one sentence. What is the capital of South Korea?"
 

@@ -63,7 +63,7 @@ int main(int argc, char* argv[]){
     prefill_chunk_size = atoi(argv[2]);
 
 
-  SegmentRunner segment_runner;
+  SegmentRunner segment_runner;  
   segment_runner.Init(model_dir, dev, model_lib_path, mode, prefill_chunk_size);
   segment_runner.SetSeed(4542); // For same experiment
 
@@ -82,16 +82,16 @@ int main(int argc, char* argv[]){
   if(max_tokens_value > 0) max_tokens = max_tokens_value;
 
   for(int i = 0; i < n + warmup; i++){
-    // - Request
-    segment_runner.Request(prompt, max_tokens);
+    // - Request    
+    segment_runner.Request(prompt, max_tokens);    
 
-    // - Prefill
+    // - Prefill    
     while(!segment_runner.IsPrefillEnd()){
       auto s = std::chrono::high_resolution_clock::now();
       segment_runner.Prefill(1);
       auto e = std::chrono::high_resolution_clock::now();
       if(i>=warmup) std::cout<<"prefill: "<<std::chrono::duration_cast<std::chrono::milliseconds>(e-s).count() <<"ms"<<std::endl;
-    }
+    }    
     
     // - Inference
     bool is_end = false;

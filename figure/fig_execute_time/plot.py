@@ -2,7 +2,7 @@ import re
 import matplotlib.pyplot as plt
 
 
-chunk_list = [4, 8, 16, 32, 64, 128, 256]
+chunk_list = [64]
 # chunk_list = [256]
 
 plt.figure(figsize=(8, 4))
@@ -33,12 +33,13 @@ for chunk in chunk_list:
         
 
     # ----- ④ 그래프 그리기 -----
-    plt.plot(x, y, marker='o', markersize=5, linewidth=1.5, label=f"chunk={chunk}")
+    plt.plot(x, y, marker='o', markersize=5, linewidth=1.5, label=f"chunk={chunk}", color="green")
     print(f"Chunk size: {chunk} / total prefill time: {sum(y)} ms")
 
 plt.title("Prefill Time per Step")
 plt.xlabel("Token Index")
 plt.ylabel("Prefill Time (ms)")
+plt.ylim(0,200)
 plt.legend()
 plt.grid(True, linestyle="--", alpha=0.6)
 plt.tight_layout()

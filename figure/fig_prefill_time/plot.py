@@ -2,7 +2,7 @@ import re
 import matplotlib.pyplot as plt
 
 
-chunk_list = [4, 8, 16, 32, 64, 128, 256]
+chunk_list = [64]
 # chunk_list = [256]
 
 plt.figure(figsize=(8, 4))
@@ -37,6 +37,7 @@ for chunk in chunk_list:
     plt.plot(x, y, marker='o', markersize=5, linewidth=1.5, label=f"chunk={chunk}")
     print(f"Chunk size: {chunk} / total prefill time: {sum(y)} ms")
 
+plt.ylim(0,200)
 plt.title("Prefill Time per Step")
 plt.xlabel("Step Index")
 plt.ylabel("Prefill Time (ms)")

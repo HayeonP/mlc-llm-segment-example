@@ -2,8 +2,6 @@
 
 MAX_TOKENS=256
 
-./profile_prefill_time $MAX_TOKENS 4 > output_chunk_4.txt
-./profile_prefill_time $MAX_TOKENS 8 > output_chunk_8.txt
 ./profile_prefill_time $MAX_TOKENS 16 > output_chunk_16.txt
 ./profile_prefill_time $MAX_TOKENS 32 > output_chunk_32.txt
 ./profile_prefill_time $MAX_TOKENS 64 > output_chunk_64.txt
