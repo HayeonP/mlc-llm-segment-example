@@ -26,13 +26,15 @@ std::string readFileToString(const std::string& filePath) {
 }
 
 int main(int argc, char* argv[]){
-  std::string model_dir = "/home/rubis/workspace/llama/mlc-llm-models/llama-3.2-1b/workspace";
+  std::string model_dir = "/home/rubis/workspace/llama/mlc-llm-models/llama-3.2-1b";
   std::string model_lib_path = model_dir + "/llama-3.2-1b-cuda.so";
   tvm::Device dev{kDLCUDA, 0};
   std::string mode = "local";
 
   SegmentRunner segment_runner;
-  segment_runner.Init(model_dir, dev, model_lib_path, mode);
+  int prefill_chunk_size = 256;
+  segment_runner.Init(model_dir, dev, model_lib_path, mode, prefill_chunk_size);
+  segment_runner.SetSeed(4542); // For same experiment
   std::cout<<"[debug] After Init"<<std::endl;
 
   std::optional<std::string> request_id = std::nullopt; // no request_id
@@ -45,13 +47,12 @@ int main(int argc, char* argv[]){
   // ChatCompletionRequest request = segment_runner.create_chat_completion_request(model_dir, prompt, max_tokens, stream);
 
   std::cout<< "# FIRST REQUEST" << std::endl;
-  int max_tokens = 128;
+  int max_tokens = 4096;
   segment_runner.Request(prompt, max_tokens);
   std::cout<<"[debug] After request"<<std::endl;
-
-  int chunk_size = 256;
+  
   while(!segment_runner.IsPrefillEnd()){
-    segment_runner.Prefill(chunk_size++); // TODO: Need to set prefill
+    segment_runner.Prefill(1);
     std::cout<<"PEFILL"<<std::endl;
   }
 
@@ -65,7 +66,7 @@ int main(int argc, char* argv[]){
     output += delta;
   }
 
-  // std::cout<<"MLC-LLM Output: "<<output<<std::endl;
+  std::cout<<"MLC-LLM Output: "<<output<<std::endl;
 
   return 0;
 }

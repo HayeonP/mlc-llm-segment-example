@@ -48,10 +48,11 @@ std::string readFileToString(const std::string& filePath) {
 }
 
 int main(int argc, char* argv[]){
-  std::string model_dir = "/home/rubis/workspace/llama/mlc-llm-models/llama-3.2-1b/workspace";
+  std::string model_dir = "/home/rubis/workspace/llama/mlc-llm-models/llama-3.2-1b-instruct";
   std::string model_lib_path = model_dir + "/llama-3.2-1b-cuda.so";
   tvm::Device dev{kDLCUDA, 0};
   std::string mode = "local";
+  std::string input_data = "input.txt";
 
   int max_tokens_value = -1;
   int prefill_chunk_size = 8;
@@ -62,13 +63,16 @@ int main(int argc, char* argv[]){
   if(argc > 2)
     prefill_chunk_size = atoi(argv[2]);
 
+  if(argc > 3)
+    input_data = std::string(argv[3]);
+
 
   SegmentRunner segment_runner;  
   segment_runner.Init(model_dir, dev, model_lib_path, mode, prefill_chunk_size);
   segment_runner.SetSeed(4542); // For same experiment
 
   // std::string prompt("Why USA is the one of the strongest country?");
-  std::string prompt = readFileToString("input.txt");
+  std::string prompt = readFileToString(input_data);
   
   std::vector<std::chrono::duration<float>> total_time_list;
   std::vector<std::chrono::duration<float>> request_time_list;

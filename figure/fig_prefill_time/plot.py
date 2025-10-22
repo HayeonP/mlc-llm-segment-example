@@ -2,13 +2,12 @@ import re
 import matplotlib.pyplot as plt
 
 
-chunk_list = [64]
+chunk_list = [16, 32, 64, 128, 256]
 # chunk_list = [256]
 
-plt.figure(figsize=(8, 4))
-
+plt.figure(8,4)
 for chunk in chunk_list:
-
+    
     # ----- ① txt 파일 읽기 -----
     # prefill_log.txt 파일이 같은 폴더에 있다고 가정
     with open(f"output_chunk_{chunk}.txt", "r", encoding="utf-8") as f:
@@ -20,7 +19,7 @@ for chunk in chunk_list:
     y = []
     
     for i, line in enumerate(lines):
-        if (i+1) * chunk > 2048: break
+        if (i+1) * chunk > 1024: break
         line = line.strip()
         if not line:
             continue
@@ -34,19 +33,38 @@ for chunk in chunk_list:
         
 
     # ----- ④ 그래프 그리기 -----
-    plt.plot(x, y, marker='o', markersize=5, linewidth=1.5, label=f"chunk={chunk}")
+    if chunk == 16:
+        marker = 'o'
+        markerfacecolor='none'
+        markersize=5
+    elif chunk == 32:
+        marker = 's'
+        markersize=8
+    elif chunk == 64:
+        marker = 'x'
+        markersize=12
+        markerfacecolor='none'
+    elif chunk == 128:
+        marker = 'o'
+        markersize=8
+        markerfacecolor='black'
+    elif chunk == 256:
+        marker = 's'
+        markersize=8
+        markerfacecolor='black'
+    plt.plot(x, y, marker=marker, markerfacecolor=markerfacecolor, markersize=markersize, linewidth=0.5, label=f"chunk={chunk}", color='black')
     print(f"Chunk size: {chunk} / total prefill time: {sum(y)} ms")
 
 plt.ylim(0,200)
-plt.title("Prefill Time per Step")
-plt.xlabel("Step Index")
-plt.ylabel("Prefill Time (ms)")
+plt.xlabel("Last token index")
+plt.ylabel("Prefill time (ms)")
 plt.legend()
 plt.grid(True, linestyle="--", alpha=0.6)
 plt.tight_layout()
-plt.savefig('plot.png')
+plt.savefig('plot.pdf')
 plt.close()
 
+plt.figure(8,4)
 for chunk in chunk_list:
 
     # ----- ① txt 파일 읽기 -----
@@ -60,7 +78,7 @@ for chunk in chunk_list:
     accumulated_y = []
     
     for i, line in enumerate(lines):
-        if (i+1) * chunk > 2048: break
+        if (i+1) * chunk > 1024: break
         line = line.strip()
         if not line:
             continue
@@ -75,14 +93,31 @@ for chunk in chunk_list:
             except ValueError:
                 pass  # 혹시 형식이 다른 줄은 무시
         
-
+    if chunk == 16:
+        marker = 'o'
+        markerfacecolor='none'
+        markersize=5
+    elif chunk == 32:
+        marker = 's'
+        markersize=8
+    elif chunk == 64:
+        marker = 'x'
+        markersize=12
+        markerfacecolor='none'
+    elif chunk == 128:
+        marker = 'o'
+        markersize=8
+        markerfacecolor='black'
+    elif chunk == 256:
+        marker = 's'
+        markersize=8
+        markerfacecolor='black'
     # ----- ④ 그래프 그리기 -----
-    plt.plot(x, accumulated_y, marker='o', markersize=5, linewidth=1.5, label=f"chunk={chunk}")
+    plt.plot(x, accumulated_y, marker=marker, markersize=markersize, markerfacecolor=markerfacecolor, linewidth=1.5, label=f"chunk={chunk}", color='black')
 
-plt.title("Prefill Time per Step")
-plt.xlabel("Step Index")
-plt.ylabel("Accumulated Prefill Time (ms)")
+plt.xlabel("Last token index")
+plt.ylabel("Accumulated prefill time (ms)")
 plt.legend()
 plt.grid(True, linestyle="--", alpha=0.6)
 plt.tight_layout()
-plt.savefig('plot_accumulated.png')
+plt.savefig('plot_accumulated.pdf')

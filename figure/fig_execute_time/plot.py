@@ -2,16 +2,15 @@ import re
 import matplotlib.pyplot as plt
 
 
-chunk_list = [64]
-# chunk_list = [256]
+input_length_list = [44, 399, 774, 1149, 1524, 1899, 1908, 2274, 2649, 3024, 3399, 3783, 4524]
 
 plt.figure(figsize=(8, 4))
 
-for chunk in chunk_list:
+for input_length in input_length_list:
 
     # ----- ① txt 파일 읽기 -----
     # prefill_log.txt 파일이 같은 폴더에 있다고 가정
-    with open(f"output_chunk_{chunk}.txt", "r", encoding="utf-8") as f:
+    with open(f"output_chunk64_input{input_length}.txt", "r", encoding="utf-8") as f:
         lines = f.readlines()
 
     # ----- ② 데이터 파싱 -----
@@ -25,62 +24,22 @@ for chunk in chunk_list:
             continue
         if "execute" in line:
             try:
-                value = int(line.split(":")[1].replace("ms", "").strip())
+                value = float(line.split(":")[1].replace("ms", "").strip())
                 y.append(value)
-                x.append((i+1))
+                x.append(input_length + (i+1))
             except ValueError: 
                 pass  # 혹시 형식이 다른 줄은 무시
         
 
     # ----- ④ 그래프 그리기 -----
-    plt.plot(x, y, marker='o', markersize=5, linewidth=1.5, label=f"chunk={chunk}", color="green")
-    print(f"Chunk size: {chunk} / total prefill time: {sum(y)} ms")
+    # 
+    plt.plot(x, y, linewidth=0.5, label=f"input_length={input_length}")
+    print(f"input length: {input_length}, total execute time: {sum(y)} ms")
 
-plt.title("Prefill Time per Step")
-plt.xlabel("Token Index")
-plt.ylabel("Prefill Time (ms)")
-plt.ylim(0,200)
-plt.legend()
+plt.xlabel("Total token length (input + output)")
+plt.ylabel("Decode time (ms)")
+plt.ylim(0,25)
 plt.grid(True, linestyle="--", alpha=0.6)
 plt.tight_layout()
-plt.savefig('plot.png')
+plt.savefig('plot.pdf')
 plt.close()
-
-for chunk in chunk_list:
-
-    # ----- ① txt 파일 읽기 -----
-    # prefill_log.txt 파일이 같은 폴더에 있다고 가정
-    with open(f"output_chunk_{chunk}.txt", "r", encoding="utf-8") as f:
-        lines = f.readlines()
-
-    # ----- ② 데이터 파싱 -----
-    # "prefill: 18ms" 형태에서 숫자만 추출
-    x = []
-    accumulated_y = []
-    
-    for i, line in enumerate(lines):
-        line = line.strip()
-        if not line:
-            continue
-        if "execute" in line:
-            try:
-                value = int(line.split(":")[1].replace("ms", "").strip())
-                x.append((i+1))
-                if i == 0: accumulated_y.append(value)
-                else: accumulated_y.append(accumulated_y[-1]+value)
-                
-                if accumulated_y[-1] > 2000: break
-            except ValueError:
-                pass  # 혹시 형식이 다른 줄은 무시
-        
-
-    # ----- ④ 그래프 그리기 -----
-    plt.plot(x, accumulated_y, marker='o', markersize=5, linewidth=1.5, label=f"chunk={chunk}")
-
-plt.title("Prefill Time per Step")
-plt.xlabel("Token index")
-plt.ylabel("Accumulated Prefill Time (ms)")
-plt.legend()
-plt.grid(True, linestyle="--", alpha=0.6)
-plt.tight_layout()
-plt.savefig('plot_accumulated.png')

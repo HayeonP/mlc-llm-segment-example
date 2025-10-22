@@ -1,11 +1,17 @@
 #!/bin/bash
 
-MAX_TOKENS=4096
+MAX_TOKENS=10240
 
-./profile_execute_time $MAX_TOKENS 4 > output_chunk_4.txt
-./profile_execute_time $MAX_TOKENS 8 > output_chunk_8.txt
-./profile_execute_time $MAX_TOKENS 16 > output_chunk_16.txt
-./profile_execute_time $MAX_TOKENS 32 > output_chunk_32.txt
-./profile_execute_time $MAX_TOKENS 64 > output_chunk_64.txt
-./profile_execute_time $MAX_TOKENS 128 > output_chunk_128.txt
-./profile_execute_time $MAX_TOKENS 256 > output_chunk_256.txt
+# ./profile_execute_time $MAX_TOKENS 64 input_length_44.txt > output_chunk64_input44.txt
+# ./profile_execute_time $MAX_TOKENS 64 input_length_399.txt > output_chunk64_input399.txt
+# ./profile_execute_time $MAX_TOKENS 64 input_length_774.txt > output_chunk64_input774.txt
+# ./profile_execute_time $MAX_TOKENS 64 input_length_1149.txt > output_chunk64_input1149.txt
+# ./profile_execute_time $MAX_TOKENS 64 input_length_1524.txt > output_chunk64_input1524.txt
+# ./profile_execute_time $MAX_TOKENS 64 input_length_1899.txt > output_chunk64_input1899.txt
+# ./profile_execute_time $MAX_TOKENS 64 input_length_1908.txt > output_chunk64_input1908.txt
+# ./profile_execute_time $MAX_TOKENS 64 input_length_2274.txt > output_chunk64_input2274.txt
+# ./profile_execute_time $MAX_TOKENS 64 input_length_2649.txt > output_chunk64_input2649.txt
+# ./profile_execute_time $MAX_TOKENS 64 input_length_3024.txt > output_chunk64_input3024.txt
+# ./profile_execute_time $MAX_TOKENS 64 input_length_3399.txt > output_chunk64_input3399.txt
+./profile_execute_time $MAX_TOKENS 64 input_length_3774.txt > output_chunk64_input3774.txt
+# ./profile_execute_time $MAX_TOKENS 64 input_length_4524.txt > output_chunk64_input4524.txt

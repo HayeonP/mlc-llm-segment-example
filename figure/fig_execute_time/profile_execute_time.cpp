@@ -48,10 +48,11 @@ std::string readFileToString(const std::string& filePath) {
 }
 
 int main(int argc, char* argv[]){
-  std::string model_dir = "/home/rubis/workspace/llama/mlc-llm-models/llama-3.2-1b/workspace";
+  std::string model_dir = "/home/rubis/workspace/llama/mlc-llm-models/llama-3.2-1b";
   std::string model_lib_path = model_dir + "/llama-3.2-1b-cuda.so";
   tvm::Device dev{kDLCUDA, 0};
   std::string mode = "local";
+  std::string input_data = "";
 
   int max_tokens_value = -1;
   int prefill_chunk_size = 8;
@@ -62,13 +63,16 @@ int main(int argc, char* argv[]){
   if(argc > 2)
     prefill_chunk_size = atoi(argv[2]);
 
+  if(argc > 3)
+    input_data = std::string(argv[3]);
+
 
   SegmentRunner segment_runner;
   segment_runner.Init(model_dir, dev, model_lib_path, mode, prefill_chunk_size);
   segment_runner.SetSeed(4542); // For same experiment
 
   // std::string prompt("Why USA is the one of the strongest country?");
-  std::string prompt = readFileToString("input.txt");
+  std::string prompt = readFileToString(input_data);
   
   std::vector<std::chrono::duration<float>> total_time_list;
   std::vector<std::chrono::duration<float>> request_time_list;
@@ -77,7 +81,7 @@ int main(int argc, char* argv[]){
 
   int n = 1;
   int warmup = 1;
-  int max_tokens = 2048;
+  int max_tokens = 1024*10;
 
   if(max_tokens_value > 0) max_tokens = max_tokens_value;
 
@@ -98,9 +102,10 @@ int main(int argc, char* argv[]){
       auto s = std::chrono::high_resolution_clock::now();
       std::string delta = segment_runner.Execute(1);
       auto e = std::chrono::high_resolution_clock::now();
-      if(i>=warmup) std::cout<<"execute: "<<std::chrono::duration_cast<std::chrono::milliseconds>(e-s).count() <<"ms"<<std::endl;
+      auto duration = std::chrono::duration<float, std::milli>(e - s);
+      if(i>=warmup) std::cout << std::fixed << std::setprecision(3) <<"execute: "<<duration.count() <<"ms"<<std::endl;
       output += delta;
-    }    
+    }
   }
 
   return 0;
